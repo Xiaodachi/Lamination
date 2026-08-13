@@ -1,0 +1,212 @@
+{
+  "sd": [
+    {
+      "nama": "Luas & Keliling Persegi Panjang",
+      "rumus": "Luas = p × l | Keliling = 2 × (p + l)",
+      "contoh": {
+        "soal": "Sebuah lapangan memiliki panjang 20 m dan lebar 10 m. Berapa luas dan kelilingnya?",
+        "penyelesaian": "Luas = 20 m × 10 m = <strong>200 m²</strong><br>Keliling = 2 × (20 m + 10 m) = <strong>60 m</strong>"
+      }
+    },
+    {
+      "nama": "Luas & Keliling Lingkaran",
+      "rumus": "Luas = π × r² | Keliling = 2 × π × r",
+      "contoh": {
+        "soal": "Sebuah roda sepeda memiliki jari-jari (r) 7 cm. Hitung luas dan kelilingnya! (Gunakan π = 22/7)",
+        "penyelesaian": "Luas = (22/7) × 7² = <strong>154 cm²</strong><br>Keliling = 2 × (22/7) × 7 = <strong>44 cm</strong>"
+      }
+    },
+    {
+        "nama": "Volume Balok",
+        "rumus": "Volume = p × l × t",
+        "contoh": {
+            "soal": "Sebuah akuarium berbentuk balok memiliki panjang 80 cm, lebar 40 cm, dan tinggi 50 cm. Berapa volumenya?",
+            "penyelesaian": "Volume = 80 cm × 40 cm × 50 cm = <strong>160.000 cm³</strong>"
+        }
+    },
+    {
+        "nama": "Luas Segitiga",
+        "rumus": "Luas = ½ × alas × tinggi",
+        "contoh": {
+            "soal": "Sebuah penggaris segitiga memiliki alas 12 cm dan tinggi 5 cm. Berapa luasnya?",
+            "penyelesaian": "Luas = ½ × 12 cm × 5 cm = <strong>30 cm²</strong>"
+        }
+    },
+    {
+        "nama": "Konversi Jam ke Menit",
+        "rumus": "Menit = Jam × 60",
+        "contoh": {
+            "soal": "Jika sekarang pukul 2 siang, berapa menit yang setara dengan 2 jam?",
+            "penyelesaian": "Menit = 2 × 60 = <strong>120 menit</strong>"
+        }
+    },
+    { "nama": "FPB (Faktor Persekutuan Terbesar)", "rumus": "Temukan faktor prima yang sama dengan pangkat terkecil, lalu kalikan.", "contoh": { "soal": "Cari FPB dari 12 dan 18.", "penyelesaian": "Faktor 12 = 2² × 3. Faktor 18 = 2 × 3². FPB = 2 × 3 = <strong>6</strong>" } },
+    { "nama": "KPK (Kelipatan Persekutuan Terkecil)", "rumus": "Kalikan semua faktor prima dengan pangkat terbesar.", "contoh": { "soal": "Cari KPK dari 8 dan 12.", "penyelesaian": "Faktor 8 = 2³. Faktor 12 = 2² × 3. KPK = 2³ × 3 = 8 × 3 = <strong>24</strong>" } },
+    { "nama": "Operasi Pecahan (Penjumlahan)", "rumus": "a/b + c/d = (ad + bc) / bd", "contoh": { "soal": "Hitunglah hasil dari 1/2 + 1/3.", "penyelesaian": "(1×3 + 1×2) / (2×3) = (3+2)/6 = <strong>5/6</strong>" } },
+    { "nama": "Luas Persegi", "rumus": "Luas = sisi × sisi", "contoh": { "soal": "Sebuah ubin berbentuk persegi memiliki sisi 30 cm. Berapa luasnya?", "penyelesaian": "Luas = 30 cm × 30 cm = <strong>900 cm²</strong>" } },
+    { "nama": "Keliling Persegi", "rumus": "Keliling = 4 × sisi", "contoh": { "soal": "Sebuah bingkai foto persegi memiliki sisi 25 cm. Berapa kelilingnya?", "penyelesaian": "Keliling = 4 × 25 cm = <strong>100 cm</strong>" } },
+    { "nama": "Volume Tabung", "rumus": "Volume = π × r² × t", "contoh": { "soal": "Sebuah kaleng susu memiliki jari-jari 3.5 cm dan tinggi 10 cm. Berapa volumenya? (π=22/7)", "penyelesaian": "Volume = (22/7) × (3.5)² × 10 = <strong>385 cm³</strong>" } },
+    { "nama": "Sudut pada Jam", "rumus": "Sudut = |(30 × Jam) - (5.5 × Menit)|", "contoh": { "soal": "Berapa sudut terkecil yang dibentuk oleh jarum jam pada pukul 03:00?", "penyelesaian": "Sudut = |(30 × 3) - (5.5 × 0)| = |90 - 0| = <strong>90°</strong>" } },
+    { "nama": "Rata-rata (Mean)", "rumus": "Rata-rata = Jumlah semua data / Banyak data", "contoh": { "soal": "Nilai ulangan Budi adalah 7, 8, 9. Berapa nilai rata-ratanya?", "penyelesaian": "Rata-rata = (7+8+9)/3 = 24/3 = <strong>8</strong>" } },
+    { "nama": "Skala Peta", "rumus": "Jarak Sebenarnya = Jarak pada Peta / Skala", "contoh": { "soal": "Pada peta berskala 1:100.000, jarak kota A ke B adalah 5 cm. Berapa jarak sebenarnya?", "penyelesaian": "Jarak Sebenarnya = 5 cm / (1/100.000) = 500.000 cm = <strong>5 km</strong>" } },
+    { "nama": "Luas Trapesium", "rumus": "Luas = ½ × (jumlah sisi sejajar) × tinggi", "contoh": { "soal": "Sebuah trapesium memiliki sisi sejajar 10 cm dan 14 cm, dengan tinggi 8 cm. Berapa luasnya?", "penyelesaian": "Luas = ½ × (10+14) × 8 = ½ × 24 × 8 = <strong>96 cm²</strong>" } },
+    { "nama": "Debit Air", "rumus": "Debit = Volume / Waktu", "contoh": { "soal": "Sebuah keran mengalirkan air 120 liter dalam 10 menit. Berapa debitnya?", "penyelesaian": "Debit = 120 liter / 10 menit = <strong>12 liter/menit</strong>" } },
+    { "nama": "Kecepatan", "rumus": "Kecepatan = Jarak / Waktu", "contoh": { "soal": "Sebuah mobil menempuh jarak 150 km dalam waktu 3 jam. Berapa kecepatannya?", "penyelesaian": "Kecepatan = 150 km / 3 jam = <strong>50 km/jam</strong>" } },
+    { "nama": "Bilangan Romawi", "rumus": "I=1, V=5, X=10, L=50, C=100, D=500, M=1000", "contoh": { "soal": "Ubahlah angka 2024 ke dalam bilangan Romawi.", "penyelesaian": "2000 = MM, 20 = XX, 4 = IV. Jadi, 2024 = <strong>MMXXIV</strong>" } },
+    { "nama": "Persentase", "rumus": "Persen = (Bagian / Keseluruhan) × 100%", "contoh": { "soal": "Di kelas ada 40 siswa, 10 di antaranya laki-laki. Berapa persen siswa laki-laki?", "penyelesaian": "Persen = (10 / 40) × 100% = 0.25 × 100% = <strong>25%</strong>" } },
+    { "nama": "Keliling Segitiga", "rumus": "Keliling = sisi a + sisi b + sisi c", "contoh": { "soal": "Sebuah segitiga memiliki panjang sisi 5 cm, 7 cm, dan 8 cm. Berapa kelilingnya?", "penyelesaian": "Keliling = 5 + 7 + 8 = <strong>20 cm</strong>" } },
+    { "nama": "Volume Kubus", "rumus": "Volume = sisi × sisi × sisi", "contoh": { "soal": "Sebuah dadu memiliki panjang sisi 2 cm. Berapa volumenya?", "penyelesaian": "Volume = 2 cm × 2 cm × 2 cm = <strong>8 cm³</strong>" } },
+    { "nama": "Luas Jajar Genjang", "rumus": "Luas = alas × tinggi", "contoh": { "soal": "Sebuah jajar genjang memiliki alas 15 cm dan tinggi 6 cm. Berapa luasnya?", "penyelesaian": "Luas = 15 cm × 6 cm = <strong>90 cm²</strong>" } },
+    { "nama": "Konversi KM ke M", "rumus": "Meter = Kilometer × 1000", "contoh": { "soal": "Jarak rumah ke sekolah adalah 3 km. Berapa jaraknya dalam meter?", "penyelesaian": "Jarak = 3 × 1000 = <strong>3000 meter</strong>" } },
+    { "nama": "Operasi Pecahan (Pengurangan)", "rumus": "a/b - c/d = (ad - bc) / bd", "contoh": { "soal": "Hitunglah hasil dari 1/2 - 1/4.", "penyelesaian": "(1×4 - 1×2) / (2×4) = (4-2)/8 = 2/8 = <strong>1/4</strong>" } },
+    { "nama": "Mencari Waktu Tempuh", "rumus": "Waktu = Jarak / Kecepatan", "contoh": { "soal": "Ayah pergi ke kota yang jaraknya 90 km dengan kecepatan 45 km/jam. Berapa lama perjalanannya?", "penyelesaian": "Waktu = 90 km / 45 km/jam = <strong>2 jam</strong>" } },
+    { "nama": "Mencari Jarak Tempuh", "rumus": "Jarak = Kecepatan × Waktu", "contoh": { "soal": "Sebuah kereta melaju dengan kecepatan 80 km/jam selama 3 jam. Berapa jarak yang ditempuh?", "penyelesaian": "Jarak = 80 km/jam × 3 jam = <strong>240 km</strong>" } },
+    { "nama": "Luas Belah Ketupat", "rumus": "Luas = ½ × diagonal 1 × diagonal 2", "contoh": { "soal": "Belah ketupat memiliki diagonal 10 cm dan 12 cm. Berapa luasnya?", "penyelesaian": "Luas = ½ × 10 cm × 12 cm = <strong>60 cm²</strong>" } },
+    { "nama": "Konversi KG ke Gram", "rumus": "Gram = Kilogram × 1000", "contoh": { "soal": "Ibu membeli 2 kg gula. Berapa beratnya dalam gram?", "penyelesaian": "Berat = 2 × 1000 = <strong>2000 gram</strong>" } },
+    { "nama": "Uang Kembalian", "rumus": "Kembalian = Uang Dibayar - Total Harga", "contoh": { "soal": "Rina membeli buku seharga Rp17.000 dan membayar dengan uang Rp20.000. Berapa kembaliannya?", "penyelesaian": "Kembalian = Rp20.000 - Rp17.000 = <strong>Rp3.000</strong>" } },
+    { "nama": "Pembulatan ke Puluhan Terdekat", "rumus": "Lihat angka satuan. Jika ≥ 5, bulatkan ke atas. Jika < 5, bulatkan ke bawah.", "contoh": { "soal": "Bulatkan angka 47 ke puluhan terdekat.", "penyelesaian": "Angka satuannya 7 (≥ 5), jadi dibulatkan ke atas menjadi <strong>50</strong>." } },
+    { "nama": "Median (Data Ganjil)", "rumus": "Urutkan data, nilai median adalah data yang berada tepat di tengah.", "contoh": { "soal": "Tentukan median dari data: 7, 5, 9, 6, 8.", "penyelesaian": "Data terurut: 5, 6, <strong>7</strong>, 8, 9. Median = <strong>7</strong>." } },
+    { "nama": "Modus", "rumus": "Nilai yang paling sering muncul dalam suatu data.", "contoh": { "soal": "Tentukan modus dari data: 2, 3, 3, 4, 5, 3, 6.", "penyelesaian": "Angka 3 muncul paling banyak (3 kali). Modus = <strong>3</strong>." } },
+    { "nama": "Luas Permukaan Kubus", "rumus": "Lp = 6 × sisi × sisi", "contoh": { "soal": "Sebuah kotak kado berbentuk kubus dengan panjang sisi 10 cm. Berapa luas permukaannya?", "penyelesaian": "Lp = 6 × 10 cm × 10 cm = <strong>600 cm²</strong>" } },
+    { "nama": "Operasi Pecahan (Perkalian)", "rumus": "a/b × c/d = (a×c) / (b×d)", "contoh": { "soal": "Hitunglah hasil dari 2/3 × 1/4.", "penyelesaian": "(2×1) / (3×4) = 2/12 = <strong>1/6</strong>" } },
+    { "nama": "Luas Layang-layang", "rumus": "Luas = ½ × diagonal 1 × diagonal 2", "contoh": { "soal": "Sebuah layang-layang memiliki diagonal 15 cm dan 20 cm. Berapa luasnya?", "penyelesaian": "Luas = ½ × 15 cm × 20 cm = <strong>150 cm²</strong>" } },
+    { "nama": "Konversi Suhu (Celsius ke Reamur)", "rumus": "Reamur = (4/5) × Celsius", "contoh": { "soal": "Suhu udara hari ini 25°C. Berapa suhunya dalam skala Reamur?", "penyelesaian": "Reamur = (4/5) × 25 = <strong>20°R</strong>" } },
+    { "nama": "Satuan Kuantitas (Lusin)", "rumus": "1 Lusin = 12 buah", "contoh": { "soal": "Berapa jumlah piring jika ibu membeli 3 lusin piring?", "penyelesaian": "Jumlah = 3 × 12 = <strong>36 buah</strong>" } },
+    { "nama": "Satuan Kuantitas (Kodi)", "rumus": "1 Kodi = 20 lembar", "contoh": { "soal": "Seorang pedagang membeli 5 kodi kain. Berapa lembar kain yang ia beli?", "penyelesaian": "Jumlah = 5 × 20 = <strong>100 lembar</strong>" } },
+    { "nama": "Sudut Siku-siku", "rumus": "Besar sudutnya tepat 90°.", "contoh": { "soal": "Berapa besar sudut yang dibentuk oleh pertemuan dua dinding yang tegak lurus?", "penyelesaian": "Sudutnya adalah sudut siku-siku, besarnya <strong>90°</strong>." } },
+    { "nama": "Sudut Lancip", "rumus": "Besar sudutnya kurang dari 90°.", "contoh": { "soal": "Sudut sebesar 45° termasuk jenis sudut apa?", "penyelesaian": "Karena kurang dari 90°, maka termasuk <strong>sudut lancip</strong>." } },
+    { "nama": "Sudut Tumpul", "rumus": "Besar sudutnya lebih dari 90° dan kurang dari 180°.", "contoh": { "soal": "Sebuah sudut besarnya 110°. Termasuk jenis sudut apakah itu?", "penyelesaian": "Karena lebih dari 90°, maka termasuk <strong>sudut tumpul</strong>." } },
+    { "nama": "Mencari Bilangan Prima", "rumus": "Bilangan yang hanya memiliki 2 faktor, yaitu 1 dan dirinya sendiri.", "contoh": { "soal": "Sebutkan bilangan prima antara 10 dan 20.", "penyelesaian": "Bilangan prima antara 10 dan 20 adalah <strong>11, 13, 17, 19</strong>." } },
+    { "nama": "Kelipatan Bilangan", "rumus": "Hasil perkalian bilangan tersebut dengan bilangan asli.", "contoh": { "soal": "Sebutkan 5 kelipatan pertama dari 4.", "penyelesaian": "4×1=4, 4×2=8, 4×3=12, 4×4=16, 4×5=20. Kelipatannya adalah <strong>4, 8, 12, 16, 20</strong>." } },
+    { "nama": "Faktor Bilangan", "rumus": "Semua bilangan yang dapat membagi habis bilangan tersebut.", "contoh": { "soal": "Tentukan semua faktor dari 12.", "penyelesaian": "12 bisa dibagi oleh 1, 2, 3, 4, 6, 12. Faktornya adalah <strong>1, 2, 3, 4, 6, 12</strong>." } },
+    { "nama": "Konversi Menit ke Detik", "rumus": "Detik = Menit × 60", "contoh": { "soal": "Sebuah lagu berdurasi 3 menit. Berapa detik durasi lagu tersebut?", "penyelesaian": "Durasi = 3 × 60 = <strong>180 detik</strong>." } },
+    { "nama": "Operasi Hitung Campuran (KaBaTaKu)", "rumus": "Kerjakan Kali, Bagi, Tambah, Kurang secara berurutan.", "contoh": { "soal": "Hitung hasil dari 5 + 3 × 4.", "penyelesaian": "Kerjakan perkalian dulu: 3 × 4 = 12. Kemudian 5 + 12 = <strong>17</strong>." } },
+    { "nama": "Akar Pangkat Dua", "rumus": "√x adalah bilangan yang jika dikuadratkan hasilnya x.", "contoh": { "soal": "Berapakah akar pangkat dua dari 49?", "penyelesaian": "Karena 7 × 7 = 49, maka √49 = <strong>7</strong>." } },
+    { "nama": "Bilangan Kuadrat", "rumus": "n² = n × n", "contoh": { "soal": "Berapakah hasil dari 9 kuadrat?", "penyelesaian": "9² = 9 × 9 = <strong>81</strong>." } }
+  ],
+  "smp": [
+    {
+      "nama": "Teorema Pythagoras",
+      "rumus": "a² + b² = c²",
+      "contoh": {
+        "soal": "Sebuah segitiga siku-siku memiliki sisi tegak (a) 6 cm dan sisi datar (b) 8 cm. Berapa panjang sisi miringnya (c)?",
+        "penyelesaian": "c² = 6² + 8² = 36 + 64 = 100<br>c = √100 = <strong>10 cm</strong>"
+      }
+    },
+    {
+      "nama": "Volume & Luas Permukaan Kubus",
+      "rumus": "Volume = s³ | Luas Permukaan = 6 × s²",
+      "contoh": {
+        "soal": "Sebuah rubik berbentuk kubus memiliki panjang sisi 5 cm. Hitung volume dan luas permukaannya!",
+        "penyelesaian": "Volume = 5³ = <strong>125 cm³</strong><br>Luas Permukaan = 6 × 5² = <strong>150 cm²</strong>"
+      }
+    },
+    { "nama": "Persamaan Linear Satu Variabel", "rumus": "ax + b = c", "contoh": { "soal": "Selesaikan persamaan 2x + 5 = 11.", "penyelesaian": "2x = 11 - 5 → 2x = 6 → x = 6/2 = <strong>3</strong>" } },
+    { "nama": "Gradien Garis Lurus", "rumus": "m = (y₂ - y₁) / (x₂ - x₁)", "contoh": { "soal": "Tentukan gradien garis yang melalui titik (2, 3) dan (4, 7).", "penyelesaian": "m = (7-3) / (4-2) = 4/2 = <strong>2</strong>" } },
+    { "nama": "Mean, Median, Modus", "rumus": "Mean: Rata-rata; Median: Nilai tengah; Modus: Nilai paling sering muncul.", "contoh": { "soal": "Data: 7, 8, 8, 9, 10. Tentukan mean, median, modus.", "penyelesaian": "Mean = (7+8+8+9+10)/5 = 8.4<br>Median = <strong>8</strong><br>Modus = <strong>8</strong>" } },
+    { "nama": "Luas Permukaan Tabung", "rumus": "Lp = 2πr(r + t)", "contoh": { "soal": "Tabung berjari-jari 7 cm dan tinggi 10 cm. Berapa luas permukaannya? (π=22/7)", "penyelesaian": "Lp = 2 × (22/7) × 7 × (7+10) = 44 × 17 = <strong>748 cm²</strong>" } },
+    { "nama": "Volume Kerucut", "rumus": "V = ⅓ × π × r² × t", "contoh": { "soal": "Kerucut berjari-jari 7 cm dan tinggi 12 cm. Berapa volumenya? (π=22/7)", "penyelesaian": "V = ⅓ × (22/7) × 7² × 12 = ⅓ × 154 × 12 = <strong>616 cm³</strong>" } },
+    { "nama": "Jarak Dua Titik", "rumus": "Jarak = √((x₂-x₁)² + (y₂-y₁)²)", "contoh": { "soal": "Hitung jarak antara titik A(1, 2) dan B(4, 6).", "penyelesaian": "Jarak = √((4-1)² + (6-2)²) = √(3² + 4²) = √(9+16) = √25 = <strong>5</strong>" } },
+    { "nama": "Himpunan (Gabungan & Irisan)", "rumus": "A ∪ B (Gabungan), A ∩ B (Irisan)", "contoh": { "soal": "A={1,2,3}, B={2,3,4}. Tentukan A ∪ B dan A ∩ B.", "penyelesaian": "A ∪ B = {1, 2, 3, 4}<br>A ∩ B = {2, 3}" } },
+    { "nama": "Peluang Empiris", "rumus": "P(A) = Frekuensi kejadian A / Total percobaan", "contoh": { "soal": "Sebuah koin dilempar 100 kali dan sisi angka muncul 45 kali. Berapa peluang empiris munculnya angka?", "penyelesaian": "P(Angka) = 45 / 100 = <strong>0.45</strong>" } },
+    { "nama": "Bunga Tunggal", "rumus": "Bunga = Modal × Persen Bunga × Waktu", "contoh": { "soal": "Adi menabung Rp1.000.000 dengan bunga 10% per tahun. Berapa bunga setelah 1 tahun?", "penyelesaian": "Bunga = 1.000.000 × 10% × 1 = <strong>Rp100.000</strong>" } },
+    { "nama": "Sudut Pusat dan Sudut Keliling", "rumus": "Sudut Pusat = 2 × Sudut Keliling", "contoh": { "soal": "Jika sudut keliling yang menghadap busur AB adalah 40°, berapa sudut pusatnya?", "penyelesaian": "Sudut Pusat = 2 × 40° = <strong>80°</strong>" } },
+    { "nama": "Bentuk Aljabar (Suku)", "rumus": "Contoh: 3x² - 2y + 7", "contoh": { "soal": "Identifikasi suku, variabel, koefisien, dan konstanta dari 3x² - 2y + 7.", "penyelesaian": "Suku: 3x², -2y, 7<br>Variabel: x, y<br>Koefisien: 3, -2<br>Konstanta: 7" } },
+    { "nama": "Relasi dan Fungsi", "rumus": "Setiap anggota domain harus memiliki tepat satu pasangan di kodomain.", "contoh": { "soal": "Manakah yang merupakan fungsi: A={(1,a),(2,b)}, B={(1,a),(1,b)}?", "penyelesaian": "<strong>A</strong> adalah fungsi karena setiap anggota domain (1, 2) punya satu pasangan. B bukan fungsi." } },
+    { "nama": "Barisan Aritmetika", "rumus": "Un = a + (n-1)b", "contoh": { "soal": "Suku ke-10 dari barisan 2, 5, 8, ... adalah?", "penyelesaian": "a=2, b=3. U₁₀ = 2 + (10-1)3 = 2 + 27 = <strong>29</strong>" } },
+    { "nama": "Deret Aritmetika", "rumus": "Sn = n/2 (2a + (n-1)b)", "contoh": { "soal": "Jumlah 5 suku pertama dari deret 3 + 7 + 11 + ... adalah?", "penyelesaian": "a=3, b=4. S₅ = 5/2 (2(3) + (5-1)4) = 2.5 (6 + 16) = 2.5 × 22 = <strong>55</strong>" } },
+    { "nama": "Diskriminan Persamaan Kuadrat", "rumus": "D = b² - 4ac", "contoh": { "soal": "Tentukan jenis akar dari x² + 2x + 1 = 0 menggunakan diskriminan.", "penyelesaian": "a=1, b=2, c=1. D = 2² - 4(1)(1) = 4 - 4 = 0. Karena D=0, akarnya <strong>real dan kembar</strong>." } },
+    { "nama": "Volume Bola", "rumus": "V = (4/3)πr³", "contoh": { "soal": "Sebuah bola memiliki jari-jari 21 cm. Hitung volumenya. (π=22/7)", "penyelesaian": "V = (4/3) × (22/7) × 21³ = (4/3) × (22/7) × 9261 = <strong>38.808 cm³</strong>" } },
+    { "nama": "Luas Permukaan Bola", "rumus": "Lp = 4πr²", "contoh": { "soal": "Sebuah globe memiliki jari-jari 10 cm. Hitung luas permukaannya. (π=3.14)", "penyelesaian": "Lp = 4 × 3.14 × 10² = 4 × 3.14 × 100 = <strong>1256 cm²</strong>" } },
+    { "nama": "Perbandingan Senilai", "rumus": "a₁/b₁ = a₂/b₂", "contoh": { "soal": "Jika harga 3 buku adalah Rp15.000, berapa harga 5 buku?", "penyelesaian": "3/15000 = 5/x → 3x = 75000 → x = <strong>Rp25.000</strong>" } },
+    { "nama": "Perbandingan Berbalik Nilai", "rumus": "a₁ × b₁ = a₂ × b₂", "contoh": { "soal": "Suatu pekerjaan selesai dalam 10 hari oleh 6 orang. Jika dikerjakan 4 orang, berapa hari selesainya?", "penyelesaian": "10 × 6 = x × 4 → 60 = 4x → x = <strong>15 hari</strong>" } },
+    { "nama": "Aritmetika Sosial (Diskon)", "rumus": "Harga Diskon = Harga Awal × %Diskon", "contoh": { "soal": "Baju seharga Rp150.000 mendapat diskon 20%. Berapa potongannya?", "penyelesaian": "Potongan = 150.000 × 20% = <strong>Rp30.000</strong>" } },
+    { "nama": "Aritmetika Sosial (Harga Jual)", "rumus": "HJ = HB + Untung", "contoh": { "soal": "Seorang pedagang membeli barang seharga Rp50.000 dan ingin untung Rp10.000. Berapa harga jualnya?", "penyelesaian": "HJ = 50.000 + 10.000 = <strong>Rp60.000</strong>" } },
+    { "nama": "Bruto, Netto, Tara", "rumus": "Bruto = Netto + Tara", "contoh": { "soal": "Sebuah karung berisi beras (netto) 25 kg dan berat karungnya (tara) 0.5 kg. Berapa berat brutonya?", "penyelesaian": "Bruto = 25 kg + 0.5 kg = <strong>25.5 kg</strong>" } },
+    { "nama": "Peluang Teoretik", "rumus": "P(A) = n(A) / n(S)", "contoh": { "soal": "Berapa peluang muncul mata dadu ganjil pada sekali lemparan?", "penyelesaian": "n(A) = {1,3,5} = 3. n(S) = {1,2,3,4,5,6} = 6. P(ganjil) = 3/6 = <strong>1/2</strong>" } },
+    { "nama": "Panjang Busur Lingkaran", "rumus": "Panjang Busur = (α/360°) × Keliling Lingkaran", "contoh": { "soal": "Lingkaran berjari-jari 14 cm, dengan sudut pusat 90°. Berapa panjang busurnya?", "penyelesaian": "Panjang busur = (90/360) × (2 × 22/7 × 14) = 1/4 × 88 = <strong>22 cm</strong>" } },
+    { "nama": "Luas Juring Lingkaran", "rumus": "Luas Juring = (α/360°) × Luas Lingkaran", "contoh": { "soal": "Lingkaran berjari-jari 10 cm, dengan sudut pusat 60°. Berapa luas juringnya?", "penyelesaian": "Luas juring = (60/360) × (3.14 × 10²) = 1/6 × 314 = <strong>52.33 cm²</strong>" } },
+    { "nama": "Persamaan Garis (melalui 1 titik & gradien)", "rumus": "y - y₁ = m(x - x₁)", "contoh": { "soal": "Tentukan persamaan garis yang melalui titik (2,3) dengan gradien 4.", "penyelesaian": "y - 3 = 4(x - 2) → y - 3 = 4x - 8 → <strong>y = 4x - 5</strong>" } },
+    { "nama": "SPLDV (Metode Substitusi)", "rumus": "Substitusikan satu variabel dari satu persamaan ke persamaan lain.", "contoh": { "soal": "Tentukan solusi dari: x = y+2 dan 2x+y=7.", "penyelesaian": "2(y+2)+y=7 → 2y+4+y=7 → 3y=3 → y=1. Maka x=1+2=3. Solusi: <strong>x=3, y=1</strong>" } },
+    { "nama": "Bentuk Pangkat", "rumus": "aᵐ × aⁿ = aᵐ⁺ⁿ", "contoh": { "soal": "Sederhanakan bentuk 2³ × 2⁴.", "penyelesaian": "2³⁺⁴ = <strong>2⁷</strong>" } },
+    { "nama": "Bentuk Akar (Menyederhanakan)", "rumus": "√(a×b) = √a × √b", "contoh": { "soal": "Sederhanakan √12.", "penyelesaian": "√12 = √(4×3) = √4 × √3 = <strong>2√3</strong>" } },
+    { "nama": "Volume Prisma Segitiga", "rumus": "V = Luas Alas × tinggi prisma", "contoh": { "soal": "Prisma dengan alas segitiga (alas 6 cm, tinggi 4 cm) dan tinggi prisma 10 cm. Berapa volumenya?", "penyelesaian": "V = (½ × 6 × 4) × 10 = 12 × 10 = <strong>120 cm³</strong>" } },
+    { "nama": "Luas Permukaan Limas Segiempat", "rumus": "Lp = Luas Alas + Jumlah Luas Sisi Tegak", "contoh": { "soal": "Limas alas persegi (sisi 10 cm), tinggi segitiga sisi tegak 12 cm. Berapa Lp-nya?", "penyelesaian": "Lp = (10×10) + 4 × (½ × 10 × 12) = 100 + 240 = <strong>340 cm²</strong>" } },
+    { "nama": "Statistika (Jangkauan/Range)", "rumus": "Range = Data Terbesar - Data Terkecil", "contoh": { "soal": "Tentukan jangkauan dari data: 10, 12, 15, 11, 18.", "penyelesaian": "Range = 18 - 10 = <strong>8</strong>" } },
+    { "nama": "Statistika (Kuartil Bawah - Q1)", "rumus": "Median dari setengah data bagian bawah.", "contoh": { "soal": "Tentukan Q1 dari data terurut: 2, 3, 4, 5, 6, 7, 8.", "penyelesaian": "Setengah data bawah: 2, 3, 4. Mediannya adalah <strong>3</strong>." } },
+    { "nama": "Kesebangunan Segitiga", "rumus": "Perbandingan sisi-sisi yang bersesuaian sama besar.", "contoh": { "soal": "ΔABC sebangun ΔPQR. AB=6, PQ=9, AC=8. Berapa PR?", "penyelesaian": "AB/PQ = AC/PR → 6/9 = 8/PR → 6×PR = 72 → PR = <strong>12</strong>" } },
+    { "nama": "Fungsi Kuadrat (Sumbu Simetri)", "rumus": "x = -b / 2a", "contoh": { "soal": "Tentukan sumbu simetri dari fungsi f(x) = x² - 4x + 3.", "penyelesaian": "x = -(-4) / (2×1) = 4/2 = <strong>2</strong>" } },
+    { "nama": "Sudut Berpelurus (Suplemen)", "rumus": "∠A + ∠B = 180°", "contoh": { "soal": "Jika ∠A = 110°, berapa besar sudut pelurusnya?", "penyelesaian": "Sudut pelurus = 180° - 110° = <strong>70°</strong>" } },
+    { "nama": "Sudut Berpenyiku ( komplemen)", "rumus": "∠A + ∠B = 90°", "contoh": { "soal": "Besar suatu sudut adalah 50°. Berapa besar sudut penyikunya?", "penyelesaian": "Sudut penyiku = 90° - 50° = <strong>40°</strong>" } },
+    { "nama": "Garis Singgung Persekutuan Dalam", "rumus": "d² = p² - (R + r)²", "contoh": { "soal": "Jarak pusat 2 lingkaran (p) 13 cm, R=3, r=2. Berapa garis singgung persekutuan dalamnya (d)?", "penyelesaian": "d² = 13² - (3+2)² = 169 - 25 = 144. d = √144 = <strong>12 cm</strong>" } },
+    { "nama": "Garis Singgung Persekutuan Luar", "rumus": "l² = p² - (R - r)²", "contoh": { "soal": "Jarak pusat 2 lingkaran (p) 15 cm, R=10, r=2. Berapa garis singgung persekutuan luarnya (l)?", "penyelesaian": "l² = 15² - (10-2)² = 225 - 64 = 161. l = <strong>√161 cm</strong>" } },
+    { "nama": "Himpunan (Selisih)", "rumus": "A - B = {x | x ∈ A dan x ∉ B}", "contoh": { "soal": "Jika A={1,2,3,4} dan B={3,4,5,6}, tentukan A - B.", "penyelesaian": "A - B = <strong>{1, 2}</strong>" } },
+    { "nama": "Gradien dari persamaan ax+by+c=0", "rumus": "m = -a/b", "contoh": { "soal": "Tentukan gradien dari persamaan garis 2x + 3y - 6 = 0.", "penyelesaian": "m = -2/3. Gradiennya adalah <strong>-2/3</strong>." } },
+    { "nama": "Tripel Pythagoras", "rumus": "Tiga bilangan asli yang memenuhi teorema pythagoras.", "contoh": { "soal": "Apakah 5, 12, 13 merupakan tripel pythagoras?", "penyelesaian": "5²+12² = 25+144 = 169. 13² = 169. Karena sama, maka <strong>ya</strong>." } },
+    { "nama": "Barisan Geometri", "rumus": "Un = arⁿ⁻¹", "contoh": { "soal": "Suku ke-5 dari barisan 3, 6, 12, ... adalah?", "penyelesaian": "a=3, r=2. U₅ = 3 × 2⁵⁻¹ = 3 × 16 = <strong>48</strong>" } },
+    { "nama": "Deret Geometri", "rumus": "Sn = a(rⁿ - 1) / (r - 1) untuk r > 1", "contoh": { "soal": "Jumlah 4 suku pertama deret 2 + 6 + 18 + ... adalah?", "penyelesaian": "a=2, r=3. S₄ = 2(3⁴ - 1) / (3-1) = 2(80)/2 = <strong>80</strong>" } },
+    { "nama": "Pola Bilangan Persegi", "rumus": "Un = n²", "contoh": { "soal": "Tentukan suku ke-8 dari pola bilangan persegi.", "penyelesaian": "U₈ = 8² = <strong>64</strong>" } },
+    { "nama": "Pola Bilangan Segitiga", "rumus": "Un = n(n+1)/2", "contoh": { "soal": "Berapakah suku ke-10 dari pola bilangan segitiga?", "penyelesaian": "U₁₀ = 10(10+1)/2 = 10(11)/2 = <strong>55</strong>" } }
+  ],
+  "sma": [
+    {
+      "nama": "Rumus Kuadrat (ABC)",
+      "rumus": "x = [-b ± √(b² - 4ac)] / 2a",
+      "contoh": {
+        "soal": "Tentukan akar-akar dari persamaan kuadrat x² + 3x - 10 = 0.",
+        "penyelesaian": "a=1, b=3, c=-10<br>x = [-3 ± √(3²-4(1)(-10))] / 2(1)<br>x = [-3 ± √49] / 2<br>x₁=<strong>2</strong>, x₂=<strong>-5</strong>"
+      }
+    },
+    {
+      "nama": "Aturan Sinus",
+      "rumus": "a/sin(A) = b/sin(B) = c/sin(C)",
+      "contoh": {
+        "soal": "Pada segitiga ABC, sisi a=10, sudut A=30°, sudut B=45°. Hitung sisi b!",
+        "penyelesaian": "10/sin(30) = b/sin(45) → 10/0.5 = b/(√2/2) → 20 = b/(√2/2) → b = <strong>10√2</strong>"
+      }
+    },
+    { "nama": "Aturan Cosinus", "rumus": "c² = a² + b² - 2ab cos(C)", "contoh": { "soal": "Pada ΔABC, a=6, b=8, sudut C=60°. Hitung sisi c.", "penyelesaian": "c² = 6²+8² - 2(6)(8)cos(60) = 36+64 - 96(0.5) = 100 - 48 = 52. c = √52 = <strong>2√13</strong>" } },
+    { "nama": "Limit Fungsi Aljabar", "rumus": "lim (x→c) f(x)", "contoh": { "soal": "Tentukan nilai dari lim (x→2) (x² - 4)/(x - 2).", "penyelesaian": "Faktorkan: (x-2)(x+2)/(x-2) = x+2. Substitusi x=2 → 2+2 = <strong>4</strong>" } },
+    { "nama": "Turunan (Diferensial)", "rumus": "f(x) = axⁿ → f'(x) = n·axⁿ⁻¹", "contoh": { "soal": "Tentukan turunan pertama dari f(x) = 3x⁴ + 2x² - 5.", "penyelesaian": "f'(x) = 4·3x⁴⁻¹ + 2·2x²⁻¹ - 0 = <strong>12x³ + 4x</strong>" } },
+    { "nama": "Integral Tak Tentu", "rumus": "∫ axⁿ dx = (a/(n+1))xⁿ⁺¹ + C", "contoh": { "soal": "Tentukan hasil dari ∫ (4x³ + 6x) dx.", "penyelesaian": "(4/4)x⁴ + (6/2)x² + C = <strong>x⁴ + 3x² + C</strong>" } },
+    { "nama": "Matriks (Determinan 2x2)", "rumus": "A = [[a,b],[c,d]] → det(A) = ad - bc", "contoh": { "soal": "Hitung determinan matriks A = [[4, 2], [1, 3]].", "penyelesaian": "det(A) = (4×3) - (2×1) = 12 - 2 = <strong>10</strong>" } },
+    { "nama": "Logaritma", "rumus": "ᵃlog b = c ↔ aᶜ = b", "contoh": { "soal": "Hitung nilai dari ²log 8.", "penyelesaian": "²log 8 = x → 2ˣ = 8 → 2ˣ = 2³. Jadi, x = <strong>3</strong>" } },
+    { "nama": "Barisan Geometri", "rumus": "Un = arⁿ⁻¹", "contoh": { "soal": "Suku ke-5 dari barisan 3, 6, 12, ... adalah?", "penyelesaian": "a=3, r=2. U₅ = 3 × 2⁵⁻¹ = 3 × 2⁴ = 3 × 16 = <strong>48</strong>" } },
+    { "nama": "Deret Geometri", "rumus": "Sn = a(rⁿ - 1) / (r - 1)", "contoh": { "soal": "Jumlah 4 suku pertama deret 2 + 6 + 18 + ... adalah?", "penyelesaian": "a=2, r=3. S₄ = 2(3⁴ - 1) / (3 - 1) = 2(81-1)/2 = <strong>80</strong>" } },
+    { "nama": "Vektor (Panjang Vektor)", "rumus": "|u| = √(x² + y² + z²)", "contoh": { "soal": "Jika vektor u = (3, 4, 0), berapa panjangnya?", "penyelesaian": "|u| = √(3² + 4² + 0²) = √(9+16) = √25 = <strong>5</strong>" } },
+    { "nama": "Faktorial", "rumus": "n! = n × (n-1) × ... × 1", "contoh": { "soal": "Hitung nilai dari 5!.", "penyelesaian": "5! = 5 × 4 × 3 × 2 × 1 = <strong>120</strong>" } },
+    { "nama": "Permutasi", "rumus": "P(n, k) = n! / (n-k)!", "contoh": { "soal": "Ada 5 calon ketua, akan dipilih ketua dan wakil. Berapa banyak susunan yang mungkin?", "penyelesaian": "P(5,2) = 5!/(5-2)! = 5!/3! = (5×4×3!)/3! = 20. Ada <strong>20</strong> susunan." } },
+    { "nama": "Kombinasi", "rumus": "C(n, k) = n! / (k!(n-k)!)", "contoh": { "soal": "Dari 10 siswa, akan dipilih 3 untuk tim cerdas cermat. Berapa banyak cara memilih?", "penyelesaian": "C(10,3) = 10!/(3!(10-3)!) = 10!/(3!7!) = (10×9×8)/ (3×2×1) = <strong>120</strong> cara." } },
+    { "nama": "Identitas Trigonometri", "rumus": "sin²x + cos²x = 1", "contoh": { "soal": "Jika sin x = 3/5, tentukan nilai cos x (untuk x di kuadran 1).", "penyelesaian": "cos²x = 1 - sin²x = 1 - (3/5)² = 1 - 9/25 = 16/25. Maka cos x = √(16/25) = <strong>4/5</strong>." } },
+    { "nama": "Statistika (Simpangan Baku)", "rumus": "σ = √[Σ(xi - μ)² / N]", "contoh": { "soal": "Hitung simpangan baku dari data: 2, 3, 4.", "penyelesaian": "Rata-rata μ = 3. Varian = [(2-3)²+(3-3)²+(4-3)²]/3 = (1+0+1)/3 = 2/3. Simpangan baku = <strong>√(2/3)</strong>." } },
+    { "nama": "Transformasi Geometri (Translasi)", "rumus": "P'(x',y') = P(x+a, y+b)", "contoh": { "soal": "Titik A(2,5) ditranslasikan oleh T(3,1). Tentukan bayangan A.", "penyelesaian": "A'(2+3, 5+1) = <strong>A'(5, 6)</strong>." } },
+    { "nama": "Fungsi Komposisi", "rumus": "(f ∘ g)(x) = f(g(x))", "contoh": { "soal": "Jika f(x)=x+2 dan g(x)=3x, tentukan (f ∘ g)(x).", "penyelesaian": "(f ∘ g)(x) = f(3x) = (3x) + 2 = <strong>3x + 2</strong>." } },
+    { "nama": "Integral Tentu", "rumus": "∫ₐᵇ f(x) dx = [F(x)]ₐᵇ = F(b) - F(a)", "contoh": { "soal": "Hitung nilai dari ∫₁² 2x dx.", "penyelesaian": "[x²]₁² = 2² - 1² = 4 - 1 = <strong>3</strong>" } },
+    { "nama": "Turunan Fungsi Trigonometri (sin)", "rumus": "f(x) = sin(x) → f'(x) = cos(x)", "contoh": { "soal": "Tentukan turunan dari f(x) = sin(x) + 3x.", "penyelesaian": "f'(x) = <strong>cos(x) + 3</strong>" } },
+    { "nama": "Limit Tak Hingga", "rumus": "Bagi dengan pangkat tertinggi.", "contoh": { "soal": "Tentukan nilai lim (x→∞) (4x²+2x)/(2x²+1).", "penyelesaian": "Bagi semua dengan x². lim (4+2/x)/(2+1/x²) = (4+0)/(2+0) = <strong>2</strong>" } },
+    { "nama": "Matriks (Invers 2x2)", "rumus": "A⁻¹ = (1/det(A)) × [[d,-b],[-c,a]]", "contoh": { "soal": "Tentukan invers matriks A = [[4, 2], [1, 3]].", "penyelesaian": "det(A)=10. A⁻¹ = (1/10) × [[3,-2],[-1,4]] = <strong>[[0.3, -0.2], [-0.1, 0.4]]</strong>" } },
+    { "nama": "Vektor (Dot Product)", "rumus": "a · b = a₁b₁ + a₂b₂ + a₃b₃", "contoh": { "soal": "Jika a=(1,2,3) dan b=(4,5,6), hitung a · b.", "penyelesaian": "a · b = (1×4)+(2×5)+(3×6) = 4+10+18 = <strong>32</strong>" } },
+    { "nama": "Transformasi Geometri (Refleksi Sumbu X)", "rumus": "P(x,y) → P'(x, -y)", "contoh": { "soal": "Tentukan bayangan titik B(3, -5) jika direfleksikan terhadap sumbu X.", "penyelesaian": "B'(3, -(-5)) = <strong>B'(3, 5)</strong>" } },
+    { "nama": "Suku Bunga Majemuk", "rumus": "Mₙ = M₀(1 + i)ⁿ", "contoh": { "soal": "Modal Rp1.000.000 dibungakan majemuk 10%/tahun. Berapa modal setelah 2 tahun?", "penyelesaian": "M₂ = 1.000.000(1+0.1)² = 1.000.000(1.21) = <strong>Rp1.210.000</strong>" } },
+    { "nama": "Persamaan Lingkaran (Pusat O)", "rumus": "x² + y² = r²", "contoh": { "soal": "Tentukan persamaan lingkaran dengan pusat (0,0) dan jari-jari 5.", "penyelesaian": "<strong>x² + y² = 25</strong>" } },
+    { "nama": "Fungsi Invers", "rumus": "Jika f(x) = y, maka f⁻¹(y) = x.", "contoh": { "soal": "Tentukan invers dari f(x) = 2x - 1.", "penyelesaian": "y = 2x - 1 → y+1 = 2x → x = (y+1)/2. Jadi f⁻¹(x) = <strong>(x+1)/2</strong>" } },
+    { "nama": "Peluang Kejadian Saling Lepas", "rumus": "P(A ∪ B) = P(A) + P(B)", "contoh": { "soal": "Peluang mengambil kartu As (A) atau King (B) dari setumpuk kartu bridge.", "penyelesaian": "P(A)=4/52, P(B)=4/52. P(A∪B) = 4/52 + 4/52 = 8/52 = <strong>2/13</strong>" } },
+    { "nama": "Deret Geometri Tak Hingga", "rumus": "S∞ = a / (1 - r)", "contoh": { "soal": "Hitung jumlah deret geometri tak hingga 16 + 8 + 4 + ...", "penyelesaian": "a=16, r=1/2. S∞ = 16 / (1-1/2) = 16 / (1/2) = <strong>32</strong>" } },
+    { "nama": "Statistika (Ragam/Varian)", "rumus": "σ² = Σ(xi - μ)² / N", "contoh": { "soal": "Hitung ragam dari data: 2, 3, 4.", "penyelesaian": "μ=3. Ragam = [(2-3)²+(3-3)²+(4-3)²]/3 = (1+0+1)/3 = <strong>2/3</strong>" } },
+    { "nama": "Turunan (Aturan Rantai)", "rumus": "Jika y=f(u) dan u=g(x), maka dy/dx = dy/du × du/dx.", "contoh": { "soal": "Tentukan turunan dari f(x) = (2x+1)³.", "penyelesaian": "Misal u=2x+1, y=u³. dy/du=3u², du/dx=2. f'(x)=3u² × 2 = 6u² = <strong>6(2x+1)²</strong>" } },
+    { "nama": "Dimensi Tiga (Jarak Titik ke Titik)", "rumus": "Gunakan teorema Pythagoras pada ruang.", "contoh": { "soal": "Panjang diagonal ruang kubus dengan sisi 4 cm adalah?", "penyelesaian": "d = √(s²+s²+s²) = √(4²+4²+4²) = √48 = <strong>4√3 cm</strong>" } },
+    { "nama": "Logaritma (Sifat Perkalian)", "rumus": "ᵃlog(b×c) = ᵃlog b + ᵃlog c", "contoh": { "soal": "Sederhanakan ²log 4 + ²log 8.", "penyelesaian": "²log(4×8) = ²log 32 = <strong>5</strong>" } },
+    { "nama": "Matriks (Perkalian)", "rumus": "Perkalian baris dengan kolom.", "contoh": { "soal": "Hitung [[1,2]] × [[3],[4]].", "penyelesaian": "[(1×3)+(2×4)] = [3+8] = <strong>[11]</strong>" } },
+    { "nama": "Transformasi (Rotasi 90° Pusat O)", "rumus": "P(x,y) → P'(-y, x)", "contoh": { "soal": "Tentukan bayangan titik C(4, 2) jika dirotasi 90° berlawanan arah jarum jam dengan pusat O(0,0).", "penyelesaian": "C'(-2, 4) = <strong>C'(-2, 4)</strong>" } },
+    { "nama": "Polinomial (Teorema Sisa)", "rumus": "Jika suku banyak f(x) dibagi (x-k), maka sisanya adalah f(k).", "contoh": { "soal": "Tentukan sisa pembagian f(x)=x²+3x+5 oleh (x-1).", "penyelesaian": "Sisa = f(1) = 1²+3(1)+5 = 1+3+5 = <strong>9</strong>" } },
+    { "nama": "Luas Segitiga (Trigonometri)", "rumus": "Luas = ½ ab sin(C)", "contoh": { "soal": "Pada ΔABC, a=10, b=12, sudut C=30°. Berapa luasnya?", "penyelesaian": "Luas = ½ (10)(12) sin(30) = ½ (120) (0.5) = <strong>30</strong>" } },
+    { "nama": "Persamaan Trigonometri Sederhana (sin)", "rumus": "sin x = sin α → x = α + k·360° atau x = (180-α) + k·360°", "contoh": { "soal": "Tentukan himpunan penyelesaian sin x = ½ untuk 0°≤x≤360°.", "penyelesaian": "sin x = sin 30°. x=30° atau x=180-30=150°. HP = <strong>{30°, 150°}</strong>" } },
+    { "nama": "Vektor (Proyeksi Skalar Ortogonal)", "rumus": "|c| = (a · b) / |b|", "contoh": { "soal": "Proyeksi skalar vektor a=(2,3) pada b=(4,0).", "penyelesaian": "|c| = ((2·4)+(3·0)) / √(4²+0²) = 8/4 = <strong>2</strong>" } },
+    { "nama": "Kaidah Pencacahan (Aturan Penjumlahan)", "rumus": "Jika ada n₁ cara melakukan kegiatan 1, n₂ cara melakukan kegiatan 2, dst, maka banyak cara = n₁+n₂+...", "contoh": { "soal": "Di lemari ada 5 kemeja dan 3 kaos. Berapa banyak cara memilih 1 pakaian?", "penyelesaian": "Banyak cara = 5 + 3 = <strong>8 cara</strong>" } },
+    { "nama": "Peluang Kejadian Saling Bebas", "rumus": "P(A ∩ B) = P(A) × P(B)", "contoh": { "soal": "Peluang muncul angka pada koin (A) dan mata dadu 5 (B) pada pelemparan bersamaan.", "penyelesaian": "P(A)=1/2, P(B)=1/6. P(A∩B) = 1/2 × 1/6 = <strong>1/12</strong>" } },
+    { "nama": "Eksponen (Persamaan)", "rumus": "aᶠ⁽ˣ⁾ = aᵍ⁽ˣ⁾ → f(x) = g(x)", "contoh": { "soal": "Tentukan nilai x dari 2ˣ⁺¹ = 8.", "penyelesaian": "2ˣ⁺¹ = 2³. Maka x+1=3 → x = <strong>2</strong>" } },
+    { "nama": "Persamaan Garis Singgung Lingkaran", "rumus": "Melalui titik (x₁,y₁) pada lingkaran x²+y²=r² adalah x₁x + y₁y = r².", "contoh": { "soal": "Tentukan PGS lingkaran x²+y²=25 di titik (3,4).", "penyelesaian": "3x + 4y = 25. PGS-nya adalah <strong>3x + 4y = 25</strong>." } },
+    { "nama": "Integral Parsial", "rumus": "∫ u dv = uv - ∫ v du", "contoh": { "soal": "Hitung ∫ x sin(x) dx.", "penyelesaian": "u=x, dv=sin(x)dx → du=dx, v=-cos(x). Hasil: -x cos(x) - ∫ -cos(x)dx = <strong>-x cos(x) + sin(x) + C</strong>" } },
+    { "nama": "Statistika (Jangkauan Antarkuartil)", "rumus": "H = Q₃ - Q₁", "contoh": { "soal": "Dari sebuah data, diketahui Q₁=60 dan Q₃=75. Berapa jangkauan antarkuartilnya?", "penyelesaian": "H = 75 - 60 = <strong>15</strong>" } }
+  ]
+}
