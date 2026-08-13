@@ -1,0 +1,1682 @@
+[
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Angka setelah 5 adalah...",
+    "options": ["4", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "3 + 4 = ...",
+    "options": ["6", "7", "8", "9"],
+    "answer": "7"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "8 - 2 = ...",
+    "options": ["5", "6", "7", "10"],
+    "answer": "6"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Ada 5 apel, dimakan 2. Sisanya berapa?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Urutan angka yang benar adalah...",
+    "options": ["1, 3, 2, 4", "1, 2, 3, 4", "4, 3, 1, 2", "2, 1, 4, 3"],
+    "answer": "1, 2, 3, 4"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Berapakah hasil dari 6 + 0?",
+    "options": ["0", "5", "6", "7"],
+    "answer": "6"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Angka sebelum 10 adalah...",
+    "options": ["8", "9", "11", "12"],
+    "answer": "9"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Bentuk apakah yang memiliki 3 sisi?",
+    "options": ["Lingkaran", "Persegi", "Segitiga", "Persegi Panjang"],
+    "answer": "Segitiga"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "9 - 5 = ...",
+    "options": ["3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "2 + 2 + 2 = ...",
+    "options": ["4", "5", "6", "8"],
+    "answer": "6"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Tujuh ditulis dalam angka adalah...",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Ada 4 burung di pohon, datang lagi 3. Jadi berapa?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "10 - 10 = ...",
+    "options": ["0", "1", "10", "20"],
+    "answer": "0"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Angka antara 7 dan 9 adalah...",
+    "options": ["6", "8", "10", "5"],
+    "answer": "8"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "5 + 5 = ...",
+    "options": ["8", "9", "10", "11"],
+    "answer": "10"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Ibu punya 6 kue, diberikan ke adik 3. Sisa kue ibu?",
+    "options": ["2", "3", "4", "9"],
+    "answer": "3"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Manakah angka yang paling besar?",
+    "options": ["8", "2", "5", "9"],
+    "answer": "9"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "Manakah angka yang paling kecil?",
+    "options": ["7", "3", "6", "4"],
+    "answer": "3"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "7 - 0 = ...",
+    "options": ["0", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "level": "SD",
+    "grade": 1,
+    "question": "1 + 8 = ...",
+    "options": ["7", "8", "9", "10"],
+    "answer": "9"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "15 + 10 = ...",
+    "options": ["20", "25", "30", "35"],
+    "answer": "25"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "30 - 12 = ...",
+    "options": ["15", "18", "22", "28"],
+    "answer": "18"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "3 x 5 = ...",
+    "options": ["8", "12", "15", "20"],
+    "answer": "15"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "10 : 2 = ...",
+    "options": ["3", "4", "5", "6"],
+    "answer": "5"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "Angka 27, angka 7 menempati nilai...",
+    "options": ["Satuan", "Puluhan", "Ratusan", "Ribuan"],
+    "answer": "Satuan"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "Jam 3 sore, jarum pendek menunjuk ke angka...",
+    "options": ["12", "3", "6", "9"],
+    "answer": "3"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "24 + 16 = ...",
+    "options": ["30", "38", "40", "42"],
+    "answer": "40"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "4 x 6 = ...",
+    "options": ["10", "20", "24", "28"],
+    "answer": "24"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "1 meter sama dengan ... cm",
+    "options": ["10", "50", "100", "1000"],
+    "answer": "100"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "50 - 25 = ...",
+    "options": ["15", "20", "25", "30"],
+    "answer": "25"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "Bentuk perkalian dari 4 + 4 + 4 adalah...",
+    "options": ["3 x 4", "4 x 3", "4 x 4", "3 + 3 + 3 + 3"],
+    "answer": "3 x 4"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "21 : 3 = ...",
+    "options": ["6", "7", "8", "9"],
+    "answer": "7"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "1 minggu ada ... hari",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "Nilai uang Rp 5.000 lebih besar dari...",
+    "options": ["Rp 10.000", "Rp 5.000", "Rp 2.000", "Rp 20.000"],
+    "answer": "Rp 2.000"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "Sebuah persegi memiliki ... sisi yang sama panjang.",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "32, 34, ..., 38. Angka yang hilang adalah...",
+    "options": ["35", "36", "37", "33"],
+    "answer": "36"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "Ayah punya 25 permen, dibagikan ke 5 anak. Setiap anak dapat...",
+    "options": ["4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "8 x 5 = ...",
+    "options": ["30", "35", "40", "45"],
+    "answer": "40"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "1 jam = ... menit",
+    "options": ["30", "45", "60", "90"],
+    "answer": "60"
+  },
+  {
+    "level": "SD",
+    "grade": 2,
+    "question": "55 + 15 = ...",
+    "options": ["60", "65", "70", "75"],
+    "answer": "70"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "125 + 250 = ...",
+    "options": ["350", "375", "400", "425"],
+    "answer": "375"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "300 - 150 = ...",
+    "options": ["100", "125", "150", "200"],
+    "answer": "150"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "9 x 8 = ...",
+    "options": ["63", "72", "81", "90"],
+    "answer": "72"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "56 : 7 = ...",
+    "options": ["6", "7", "8", "9"],
+    "answer": "8"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Nilai pecahan dari gambar yang diarsir 1 dari 4 bagian adalah...",
+    "options": ["1/2", "1/3", "1/4", "1/5"],
+    "answer": "1/4"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Sudut siku-siku besarnya ... derajat.",
+    "options": ["45", "60", "90", "180"],
+    "answer": "90"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "10 x 15 = ...",
+    "options": ["100", "125", "150", "200"],
+    "answer": "150"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "1 kg = ... gram",
+    "options": ["10", "100", "1000", "10000"],
+    "answer": "1000"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Setengah dari 50 adalah...",
+    "options": ["20", "25", "30", "35"],
+    "answer": "25"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Bangun yang memiliki 4 sisi sama panjang dan 4 sudut siku-siku adalah...",
+    "options": ["Persegi", "Persegi Panjang", "Trapesium", "Jajar Genjang"],
+    "answer": "Persegi"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "452 dibaca...",
+    "options": ["Empat ratus lima puluh dua", "Empat dua lima", "Lima empat dua", "Dua lima empat"],
+    "answer": "Empat ratus lima puluh dua"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "120 : 10 = ...",
+    "options": ["10", "11", "12", "13"],
+    "answer": "12"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Tanda perbandingan yang tepat untuk 125 ... 152 adalah",
+    "options": [">", "<", "=", "+"],
+    "answer": "<"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Dalam 1 tahun ada ... bulan.",
+    "options": ["10", "11", "12", "13"],
+    "answer": "12"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "25 x 4 = ...",
+    "options": ["50", "75", "100", "125"],
+    "answer": "100"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Keliling persegi dengan sisi 5 cm adalah ... cm.",
+    "options": ["10", "15", "20", "25"],
+    "answer": "20"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Pecahan 2/5, angka 2 disebut...",
+    "options": ["Penyebut", "Pembilang", "Pecahan", "Bilangan"],
+    "answer": "Pembilang"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "30 menit setelah pukul 08:15 adalah pukul...",
+    "options": ["08:30", "08:45", "09:00", "09:15"],
+    "answer": "08:45"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "7 x 6 = ...",
+    "options": ["35", "42", "48", "54"],
+    "answer": "42"
+  },
+  {
+    "level": "SD",
+    "grade": 3,
+    "question": "Alat untuk mengukur panjang adalah...",
+    "options": ["Timbangan", "Jam", "Penggaris", "Termometer"],
+    "answer": "Penggaris"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Bentuk desimal dari 1/2 adalah...",
+    "options": ["0.2", "0.25", "0.5", "0.75"],
+    "answer": "0.5"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Keliling persegi panjang dengan panjang 10 cm dan lebar 5 cm adalah ... cm.",
+    "options": ["15", "25", "30", "50"],
+    "answer": "30"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Faktor Persekutuan Terbesar (FPB) dari 12 dan 18 adalah...",
+    "options": ["2", "3", "4", "6"],
+    "answer": "6"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Kelipatan Persekutuan Terkecil (KPK) dari 4 dan 6 adalah...",
+    "options": ["8", "12", "18", "24"],
+    "answer": "12"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Hasil dari 3/5 + 1/5 adalah...",
+    "options": ["2/5", "4/5", "4/10", "1"],
+    "answer": "4/5"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Luas persegi dengan sisi 7 cm adalah ... cm².",
+    "options": ["14", "21", "28", "49"],
+    "answer": "49"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Angka Romawi dari 10 adalah...",
+    "options": ["I", "V", "X", "L"],
+    "answer": "X"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Pembulatan bilangan 347 ke puluhan terdekat adalah...",
+    "options": ["300", "340", "350", "400"],
+    "answer": "350"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Sudut yang lebih kecil dari 90 derajat disebut sudut...",
+    "options": ["Lancip", "Tumpul", "Siku-siku", "Lurus"],
+    "answer": "Lancip"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "15 x 12 = ...",
+    "options": ["150", "160", "170", "180"],
+    "answer": "180"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "2.5 + 1.25 = ...",
+    "options": ["3.25", "3.50", "3.75", "4.00"],
+    "answer": "3.75"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Bentuk persen dari 1/4 adalah...",
+    "options": ["14%", "20%", "25%", "40%"],
+    "answer": "25%"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Luas segitiga dengan alas 6 cm dan tinggi 8 cm adalah ... cm².",
+    "options": ["14", "24", "30", "48"],
+    "answer": "24"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Bilangan prima antara 10 dan 20 adalah...",
+    "options": ["11, 13, 15, 17", "11, 13, 17, 19", "13, 15, 17, 19", "11, 15, 17, 19"],
+    "answer": "11, 13, 17, 19"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Hasil dari 500 : 25 = ...",
+    "options": ["10", "15", "20", "25"],
+    "answer": "20"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Berat sebuah semangka 3 kg. Berat dalam gram adalah...",
+    "options": ["30 gr", "300 gr", "3000 gr", "30000 gr"],
+    "answer": "3000 gr"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Sebuah bus berangkat pukul 07:00 dan tiba pukul 10:00. Lama perjalanan adalah ... jam.",
+    "options": ["2", "3", "4", "5"],
+    "answer": "3"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Hasil dari 4/5 - 2/5 adalah...",
+    "options": ["1/5", "2/5", "3/5", "1"],
+    "answer": "2/5"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "2 jam 15 menit = ... menit",
+    "options": ["100", "120", "135", "150"],
+    "answer": "135"
+  },
+  {
+    "level": "SD",
+    "grade": 4,
+    "question": "Data: 5, 6, 7, 6, 8. Rata-ratanya adalah...",
+    "options": ["5.5", "6", "6.4", "7"],
+    "answer": "6.4"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Volume kubus dengan rusuk 5 cm adalah ... cm³.",
+    "options": ["25", "100", "125", "150"],
+    "answer": "125"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Hasil dari 2/3 + 1/4 adalah...",
+    "options": ["3/7", "11/12", "1/2", "5/6"],
+    "answer": "11/12"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Kecepatan 60 km/jam. Jarak yang ditempuh dalam 2 jam adalah ... km.",
+    "options": ["30", "60", "120", "180"],
+    "answer": "120"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Debit air 10 liter/menit. Volume air yang mengalir dalam 5 menit adalah ... liter.",
+    "options": ["2", "15", "50", "100"],
+    "answer": "50"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Skala peta 1:100.000. Jarak pada peta 2 cm, jarak sebenarnya ... km.",
+    "options": ["0.2", "2", "20", "200"],
+    "answer": "2"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Hasil dari 0.5 x 0.4 adalah...",
+    "options": ["0.02", "0.2", "2", "20"],
+    "answer": "0.2"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Volume balok dengan p=10, l=5, t=4 cm adalah ... cm³.",
+    "options": ["19", "100", "150", "200"],
+    "answer": "200"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Akar kuadrat dari 81 adalah...",
+    "options": ["7", "8", "9", "10"],
+    "answer": "9"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "75% jika diubah menjadi pecahan biasa adalah...",
+    "options": ["1/4", "1/2", "3/4", "4/5"],
+    "answer": "3/4"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Titik (3, 5) pada koordinat kartesius, angka 3 adalah...",
+    "options": ["Sumbu x", "Sumbu y", "Titik asal", "Kuadran"],
+    "answer": "Sumbu x"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Hasil dari 1.5 : 0.3 adalah...",
+    "options": ["0.5", "5", "15", "50"],
+    "answer": "5"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Luas lingkaran dengan jari-jari 7 cm adalah ... cm². (π=22/7)",
+    "options": ["44", "77", "154", "308"],
+    "answer": "154"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Sebuah jaring-jaring kubus terdiri dari ... buah persegi.",
+    "options": ["4", "5", "6", "8"],
+    "answer": "6"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Perbandingan uang Ali dan Budi adalah 2:3. Jika uang Ali Rp 10.000, uang Budi?",
+    "options": ["Rp 12.000", "Rp 15.000", "Rp 18.000", "Rp 20.000"],
+    "answer": "Rp 15.000"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "5² + 3² = ...",
+    "options": ["16", "25", "34", "64"],
+    "answer": "34"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Satu dasawarsa adalah ... tahun.",
+    "options": ["5", "10", "50", "100"],
+    "answer": "10"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Data: 7, 8, 9, 7, 8, 8, 9, 10. Modus dari data tersebut adalah...",
+    "options": ["7", "8", "9", "10"],
+    "answer": "8"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Hasil dari 3/4 x 2/5 adalah...",
+    "options": ["5/9", "6/20", "3/10", "1/2"],
+    "answer": "3/10"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "2 km + 500 m = ... m",
+    "options": ["700", "2500", "502", "20500"],
+    "answer": "2500"
+  },
+  {
+    "level": "SD",
+    "grade": 5,
+    "question": "Jarak 150 km ditempuh dalam 3 jam. Kecepatannya adalah ... km/jam.",
+    "options": ["40", "45", "50", "60"],
+    "answer": "50"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Hasil dari -5 + 8 adalah...",
+    "options": ["-13", "-3", "3", "13"],
+    "answer": "3"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Rata-rata dari data 7, 8, 9, 10, 6 adalah...",
+    "options": ["7", "7.5", "8", "8.5"],
+    "answer": "8"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Volume tabung dengan jari-jari 7 cm dan tinggi 10 cm adalah ... cm³. (π=22/7)",
+    "options": ["770", "1540", "2200", "3080"],
+    "answer": "1540"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Bentuk sederhana dari 12/18 adalah...",
+    "options": ["1/2", "2/3", "3/4", "4/5"],
+    "answer": "2/3"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Harga sebuah buku Rp 20.000. Jika mendapat diskon 10%, maka harga yang harus dibayar...",
+    "options": ["Rp 15.000", "Rp 16.000", "Rp 18.000", "Rp 19.000"],
+    "answer": "Rp 18.000"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Hasil dari (5 + 3) x 4 adalah...",
+    "options": ["23", "27", "32", "35"],
+    "answer": "32"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Luas permukaan kubus dengan rusuk 6 cm adalah ... cm².",
+    "options": ["36", "144", "180", "216"],
+    "answer": "216"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Median dari data: 5, 7, 6, 8, 9 adalah...",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Hasil dari 25% dari 200 adalah...",
+    "options": ["25", "40", "50", "75"],
+    "answer": "50"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Jika 2x = 10, maka nilai x adalah...",
+    "options": ["2", "4", "5", "8"],
+    "answer": "5"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Keliling lingkaran dengan diameter 14 cm adalah ... cm. (π=22/7)",
+    "options": ["22", "44", "66", "88"],
+    "answer": "44"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Urutkan bilangan berikut dari yang terkecil: -5, 2, 0, -3, 1",
+    "options": ["-5, -3, 0, 1, 2", "-3, -5, 0, 1, 2", "0, 1, 2, -3, -5", "2, 1, 0, -3, -5"],
+    "answer": "-5, -3, 0, 1, 2"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "60 km/jam diubah ke m/menit menjadi...",
+    "options": ["100 m/menit", "600 m/menit", "1000 m/menit", "6000 m/menit"],
+    "answer": "1000 m/menit"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Hasil dari -4 - (-6) adalah...",
+    "options": ["-10", "-2", "2", "10"],
+    "answer": "2"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Volume limas dengan luas alas 30 cm² dan tinggi 10 cm adalah ... cm³.",
+    "options": ["100", "150", "200", "300"],
+    "answer": "100"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Sudut satu putaran penuh adalah ... derajat.",
+    "options": ["90", "180", "270", "360"],
+    "answer": "360"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Modus dari data: Apel, Jeruk, Apel, Mangga, Jeruk, Apel adalah...",
+    "options": ["Apel", "Jeruk", "Mangga", "Semua sama"],
+    "answer": "Apel"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "FPB dari 24 dan 36 adalah...",
+    "options": ["6", "8", "12", "18"],
+    "answer": "12"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "KPK dari 8 dan 12 adalah...",
+    "options": ["16", "24", "36", "48"],
+    "answer": "24"
+  },
+  {
+    "level": "SD",
+    "grade": 6,
+    "question": "Hasil dari 1/2 : 1/4 adalah...",
+    "options": ["1/8", "1/2", "2", "4"],
+    "answer": "2"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Hasil dari -15 + (-5) adalah...",
+    "options": ["-20", "-10", "10", "20"],
+    "answer": "-20"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Jika x + 5 = 12, maka nilai x adalah...",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Bentuk sederhana dari 3x + 2y - x + 3y adalah...",
+    "options": ["2x + 5y", "3x + 5y", "4x + 5y", "2x + 6y"],
+    "answer": "2x + 5y"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Sudut pelurus dari 60 derajat adalah...",
+    "options": ["30", "90", "120", "180"],
+    "answer": "120"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Perbandingan 15 : 25 dapat disederhanakan menjadi...",
+    "options": ["1:2", "2:3", "3:5", "5:3"],
+    "answer": "3:5"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Harga 5 buku adalah Rp 12.500. Harga 1 buku adalah...",
+    "options": ["Rp 2.000", "Rp 2.500", "Rp 3.000", "Rp 3.500"],
+    "answer": "Rp 2.500"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Himpunan bilangan prima kurang dari 10 adalah...",
+    "options": ["{1, 2, 3, 5, 7}", "{2, 3, 5, 7}", "{2, 4, 6, 8}", "{3, 5, 7, 9}"],
+    "answer": "{2, 3, 5, 7}"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Luas persegi yang kelilingnya 24 cm adalah ... cm².",
+    "options": ["24", "36", "48", "64"],
+    "answer": "36"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Hasil dari 2/5 x 3/4 adalah...",
+    "options": ["5/9", "6/20", "3/10", "5/8"],
+    "answer": "3/10"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Jika 3y - 2 = 10, maka nilai y adalah...",
+    "options": ["3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Sebuah segitiga sama sisi memiliki ... simetri lipat.",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Hasil dari -8 x 4 adalah...",
+    "options": ["-32", "-12", "-4", "32"],
+    "answer": "-32"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Garis yang sejajar dengan sumbu X adalah...",
+    "options": ["y = 5", "x = 5", "y = x", "y = -x"],
+    "answer": "y = 5"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Penyiku dari sudut 40 derajat adalah...",
+    "options": ["50", "60", "90", "140"],
+    "answer": "50"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Seorang pedagang membeli barang seharga Rp 100.000 dan menjualnya Rp 120.000. Persentase keuntungannya adalah...",
+    "options": ["10%", "15%", "20%", "25%"],
+    "answer": "20%"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "KPK dari 12 dan 15 adalah...",
+    "options": ["30", "45", "60", "120"],
+    "answer": "60"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "FPB dari 48 dan 72 adalah...",
+    "options": ["12", "16", "24", "36"],
+    "answer": "24"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Notasi pembentuk himpunan dari {a, i, u, e, o} adalah...",
+    "options": ["{x | x adalah huruf vokal}", "{x | x adalah huruf konsonan}", "{x | x adalah huruf abjad}", "{x | x adalah huruf mati}"],
+    "answer": "{x | x adalah huruf vokal}"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Hasil dari (-2)³ adalah...",
+    "options": ["-8", "-6", "6", "8"],
+    "answer": "-8"
+  },
+  {
+    "level": "SMP",
+    "grade": 7,
+    "question": "Sudut-sudut dalam sebuah segitiga berjumlah...",
+    "options": ["90°", "180°", "270°", "360°"],
+    "answer": "180°"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Gradien garis yang melalui titik (2,3) dan (4,7) adalah...",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Pada segitiga siku-siku dengan sisi 3 cm dan 4 cm, panjang sisi miringnya adalah ... cm.",
+    "options": ["5", "6", "7", "8"],
+    "answer": "5"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Jika f(x) = 2x + 3, maka nilai f(4) adalah...",
+    "options": ["8", "10", "11", "14"],
+    "answer": "11"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Himpunan penyelesaian dari 2x + y = 7 dan x - y = -1 adalah...",
+    "options": ["x=2, y=3", "x=3, y=1", "x=1, y=5", "x=4, y=-1"],
+    "answer": "x=2, y=3"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Luas permukaan balok dengan p=5, l=4, t=3 cm adalah ... cm².",
+    "options": ["60", "72", "94", "120"],
+    "answer": "94"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Persamaan garis yang melalui titik (0,2) dengan gradien 3 adalah...",
+    "options": ["y = 2x + 3", "y = 3x + 2", "y = 3x - 2", "y = 2x - 3"],
+    "answer": "y = 3x + 2"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Sebuah lingkaran memiliki keliling 44 cm. Jari-jarinya adalah ... cm. (π=22/7)",
+    "options": ["7", "14", "21", "22"],
+    "answer": "7"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Rata-rata nilai 5 siswa adalah 80. Jika digabung dengan nilai seorang siswa lagi, rata-ratanya menjadi 82. Nilai siswa tersebut?",
+    "options": ["82", "85", "90", "92"],
+    "answer": "92"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Relasi dari himpunan A={1,2,3} ke B={1,4,9} yang menyatakan 'kuadrat dari' adalah...",
+    "options": ["{(1,1), (2,4), (3,9)}", "{(1,1), (2,2), (3,3)}", "{(1,4), (2,9), (3,1)}", "{(1,9), (2,1), (3,4)}"],
+    "answer": "{(1,1), (2,4), (3,9)}"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Volume prisma dengan alas segitiga (a=6, t=8) dan tinggi prisma 10 cm adalah ... cm³.",
+    "options": ["120", "240", "360", "480"],
+    "answer": "240"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Faktorisasi dari x² - 9 adalah...",
+    "options": ["(x-3)(x-3)", "(x+3)(x+3)", "(x-3)(x+3)", "(x-9)(x+1)"],
+    "answer": "(x-3)(x+3)"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Peluang munculnya mata dadu ganjil pada pelemparan sebuah dadu adalah...",
+    "options": ["1/6", "1/3", "1/2", "2/3"],
+    "answer": "1/2"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Panjang diagonal sebuah persegi dengan sisi 10 cm adalah...",
+    "options": ["10√2 cm", "10√3 cm", "20 cm", "100 cm"],
+    "answer": "10√2 cm"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Sudut pusat sebuah juring adalah 90°. Jika jari-jari lingkaran 14 cm, luas juring adalah ... cm². (π=22/7)",
+    "options": ["77", "154", "308", "616"],
+    "answer": "154"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Dua garis dikatakan sejajar jika memiliki...",
+    "options": ["Gradien yang sama", "Gradien yang berbeda", "Gradien berkebalikan", "Gradien negatif"],
+    "answer": "Gradien yang sama"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Range dari data: 12, 15, 10, 18, 20 adalah...",
+    "options": ["8", "10", "12", "15"],
+    "answer": "10"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Tripel Pythagoras di bawah ini yang benar adalah...",
+    "options": ["5, 12, 13", "6, 8, 12", "7, 9, 10", "8, 10, 15"],
+    "answer": "5, 12, 13"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Persamaan 2(x+3) = 10 memiliki solusi x = ...",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Volume limas dengan alas persegi (sisi=10 cm) dan tinggi 12 cm adalah ... cm³.",
+    "options": ["120", "240", "400", "1200"],
+    "answer": "400"
+  },
+  {
+    "level": "SMP",
+    "grade": 8,
+    "question": "Garis yang tegak lurus dengan y = 2x + 5 memiliki gradien...",
+    "options": ["2", "-2", "1/2", "-1/2"],
+    "answer": "-1/2"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Akar-akar dari persamaan kuadrat x² - 5x + 6 = 0 adalah...",
+    "options": ["2 dan 3", "-2 dan -3", "1 dan 6", "-1 dan -6"],
+    "answer": "2 dan 3"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Hasil dari 3⁴ adalah...",
+    "options": ["12", "27", "64", "81"],
+    "answer": "81"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Jika sin(A) = 3/5, maka cos(A) adalah...",
+    "options": ["3/4", "4/5", "5/4", "5/3"],
+    "answer": "4/5"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Sebuah tabung berjari-jari 5 cm dan tinggi 10 cm. Volumenya adalah ... cm³.",
+    "options": ["50π", "100π", "250π", "500π"],
+    "answer": "250π"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Bentuk sederhana dari √75 adalah...",
+    "options": ["3√5", "5√3", "5√5", "25√3"],
+    "answer": "5√3"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Sebuah foto berukuran 4x6 diperbesar sehingga sisi panjangnya menjadi 9. Ukuran sisi pendeknya menjadi...",
+    "options": ["5", "6", "7", "8"],
+    "answer": "6"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Volume bola dengan jari-jari 3 cm adalah ... cm³.",
+    "options": ["12π", "18π", "27π", "36π"],
+    "answer": "36π"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Notasi ilmiah dari 2.500.000 adalah...",
+    "options": ["2.5 x 10⁵", "2.5 x 10⁶", "25 x 10⁵", "0.25 x 10⁷"],
+    "answer": "2.5 x 10⁶"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Titik A(2,3) ditranslasikan oleh T(3,4). Bayangan titik A adalah...",
+    "options": ["A'(5,7)", "A'(1,1)", "A'(6,12)", "A'(-1,-1)"],
+    "answer": "A'(5,7)"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Jumlah akar-akar persamaan x² - 7x + 12 = 0 adalah...",
+    "options": ["-12", "-7", "7", "12"],
+    "answer": "7"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Luas permukaan kerucut dengan jari-jari 7 dan garis pelukis 10 adalah ... cm². (π=22/7)",
+    "options": ["154", "220", "374", "704"],
+    "answer": "374"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Hasil dari 2⁻³ adalah...",
+    "options": ["-8", "-6", "1/8", "1/6"],
+    "answer": "1/8"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Nilai diskriminan dari persamaan x² + 6x + 5 = 0 adalah...",
+    "options": ["16", "20", "26", "56"],
+    "answer": "16"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Titik B(4, -2) direfleksikan terhadap sumbu X. Bayangannya adalah...",
+    "options": ["(-4, -2)", "(-4, 2)", "(4, 2)", "(2, -4)"],
+    "answer": "(4, 2)"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Pada segitiga ABC dan PQR, jika ∠A=∠P, ∠B=∠Q, maka kedua segitiga...",
+    "options": ["Sebangun", "Sama sisi", "Sama kaki", "Kongruen"],
+    "answer": "Sebangun"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Hasil dari (√5 + √3)(√5 - √3) adalah...",
+    "options": ["2", "8", "√15", "15"],
+    "answer": "2"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Fungsi kuadrat f(x) = x² - 4x + 3 memiliki sumbu simetri di x = ...",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Jika 3^x = 81, maka nilai x adalah...",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Simpangan kuartil dari data 2, 3, 4, 5, 6, 7, 8 adalah...",
+    "options": ["1", "1.5", "2", "2.5"],
+    "answer": "2"
+  },
+  {
+    "level": "SMP",
+    "grade": 9,
+    "question": "Nilai tan(45°) adalah...",
+    "options": ["0", "1/2", "√3/2", "1"],
+    "answer": "1"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Bentuk sederhana dari (a²)³ adalah...",
+    "options": ["a⁵", "a⁶", "a⁸", "3a²"],
+    "answer": "a⁶"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Nilai dari ²log 8 adalah...",
+    "options": ["2", "3", "4", "8"],
+    "answer": "3"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Jika f(x) = x+2 dan g(x) = x², maka (g o f)(x) adalah...",
+    "options": ["x² + 2", "x² + 4", "(x+2)²", "x²+2x"],
+    "answer": "(x+2)²"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Himpunan penyelesaian dari |x - 3| = 5 adalah...",
+    "options": ["{8}", "{-2}", "{8, -2}", "{2, -8}"],
+    "answer": "{8, -2}"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Dalam segitiga ABC, jika sin(A)=3/5 dan A sudut lancip, nilai tan(A) adalah...",
+    "options": ["3/4", "4/3", "4/5", "5/3"],
+    "answer": "3/4"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Penyelesaian dari sistem persamaan 2x+y=8 dan x-y=1 adalah...",
+    "options": ["x=3, y=2", "x=2, y=4", "x=4, y=0", "x=5, y=-2"],
+    "answer": "x=3, y=2"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Persamaan kuadrat yang akar-akarnya 3 dan -2 adalah...",
+    "options": ["x² - x - 6 = 0", "x² + x - 6 = 0", "x² - 5x + 6 = 0", "x² + 5x - 6 = 0"],
+    "answer": "x² - x - 6 = 0"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Nilai cos(120°) adalah...",
+    "options": ["1/2", "-1/2", "√3/2", "-√3/2"],
+    "answer": "-1/2"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Jika ³log 5 = a, maka ³log 15 adalah...",
+    "options": ["3a", "a+1", "a+3", "a-1"],
+    "answer": "a+1"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Invers dari fungsi f(x) = 2x - 4 adalah...",
+    "options": ["(x+4)/2", "(x-4)/2", "2x+4", "4x-2"],
+    "answer": "(x+4)/2"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Penyelesaian pertidaksamaan 2x - 1 > 7 adalah...",
+    "options": ["x > 3", "x < 3", "x > 4", "x < 4"],
+    "answer": "x > 4"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Aturan sinus menyatakan bahwa...",
+    "options": ["a/sin(A) = b/sin(B)", "a² = b²+c²-2bc cos(A)", "L = 1/2 ab sin(C)", "sin²(A) + cos²(A) = 1"],
+    "answer": "a/sin(A) = b/sin(B)"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Grafik fungsi y = x² - 2x - 3 memotong sumbu y di titik...",
+    "options": ["(0,3)", "(0,-3)", "(3,0)", "(-1,0)"],
+    "answer": "(0,-3)"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Panjang vektor a = (3, 4) adalah...",
+    "options": ["3", "4", "5", "7"],
+    "answer": "5"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Jika log 2 = 0.301, maka log 20 adalah...",
+    "options": ["0.602", "1.301", "2.301", "3.010"],
+    "answer": "1.301"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Hasil dari |3 - 7| adalah...",
+    "options": ["-10", "-4", "4", "10"],
+    "answer": "4"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Banyak cara menyusun 3 buku berbeda di rak adalah...",
+    "options": ["3", "5", "6", "9"],
+    "answer": "6"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Suku ke-10 dari barisan aritmetika 2, 5, 8, ... adalah...",
+    "options": ["20", "27", "29", "32"],
+    "answer": "29"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Nilai sin(30°) + cos(60°) adalah...",
+    "options": ["0", "1/2", "1", "√3"],
+    "answer": "1"
+  },
+  {
+    "level": "SMA",
+    "grade": 10,
+    "question": "Vektor satuan dari v = (3, 4) adalah...",
+    "options": ["(3/5, 4/5)", "(3/7, 4/7)", "(1/3, 1/4)", "(1, 1)"],
+    "answer": "(3/5, 4/5)"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Suku ke-5 dari barisan geometri 3, 6, 12, ... adalah...",
+    "options": ["24", "36", "48", "60"],
+    "answer": "48"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Nilai dari lim (x→2) (x² - 4)/(x - 2) adalah...",
+    "options": ["0", "2", "4", "tak hingga"],
+    "answer": "4"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Turunan pertama dari f(x) = 3x² + 2x - 1 adalah...",
+    "options": ["6x + 2", "3x + 2", "6x - 1", "3x² + 2"],
+    "answer": "6x + 2"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Persamaan lingkaran dengan pusat (0,0) dan jari-jari 5 adalah...",
+    "options": ["x² + y² = 5", "x² + y² = 10", "x² + y² = 25", "x + y = 5"],
+    "answer": "x² + y² = 25"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Banyak permutasi dari 4 unsur yang diambil 2 unsur adalah...",
+    "options": ["6", "8", "12", "24"],
+    "answer": "12"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Nilai dari sin(150°) adalah...",
+    "options": ["1/2", "-1/2", "√3/2", "-√3/2"],
+    "answer": "1/2"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Jika suku banyak f(x) = x³-2x+1 dibagi oleh (x-1), sisanya adalah...",
+    "options": ["-2", "-1", "0", "1"],
+    "answer": "0"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Determinan dari matriks [[2, 1], [3, 4]] adalah...",
+    "options": ["5", "8", "11", "14"],
+    "answer": "5"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Jumlah deret geometri tak hingga 4 + 2 + 1 + ... adalah...",
+    "options": ["6", "7", "8", "10"],
+    "answer": "8"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Nilai dari cos(A-B) adalah...",
+    "options": ["cosAcosB - sinAsinB", "cosAcosB + sinAsinB", "sinAcosB - cosAsinB", "sinAcosB + cosAsinB"],
+    "answer": "cosAcosB + sinAsinB"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Garis singgung kurva y = x² di titik (2,4) adalah...",
+    "options": ["y = 4x - 4", "y = 2x", "y = 4x", "y = 2x + 2"],
+    "answer": "y = 4x - 4"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Peluang terpilihnya seorang ketua kelas laki-laki dari 15 siswa laki-laki dan 10 siswa perempuan adalah...",
+    "options": ["10/25", "15/25", "10/15", "1/25"],
+    "answer": "15/25"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Persamaan garis singgung lingkaran x²+y²=13 di titik (2,3) adalah...",
+    "options": ["2x+3y=13", "3x+2y=13", "2x-3y=13", "3x-2y=13"],
+    "answer": "2x+3y=13"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Hasil dari ∫(2x+3) dx adalah...",
+    "options": ["x² + 3x + C", "2x² + 3x + C", "x² + 3 + C", "2 + C"],
+    "answer": "x² + 3x + C"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Nilai dari lim (x→∞) (2x²+1)/(x²-1) adalah...",
+    "options": ["0", "1", "2", "∞"],
+    "answer": "2"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Bayangan titik (5, -3) oleh rotasi [O, 90°] adalah...",
+    "options": ["(3, 5)", "(-3, -5)", "(-5, 3)", "(5, 3)"],
+    "answer": "(3, 5)"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Kombinasi 5C2 adalah...",
+    "options": ["10", "15", "20", "25"],
+    "answer": "10"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Invers dari matriks [[2, 1], [5, 3]] adalah...",
+    "options": ["[[3, -1], [-5, 2]]", "[[2, -1], [-5, 3]]", "[[-2, 1], [5, -3]]", "[[3, 1], [5, 2]]"],
+    "answer": "[[3, -1], [-5, 2]]"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Rumus suku ke-n dari barisan 1, 4, 9, 16, ... adalah...",
+    "options": ["n+2", "2n", "n²", "n³"],
+    "answer": "n²"
+  },
+  {
+    "level": "SMA",
+    "grade": 11,
+    "question": "Nilai sin(2A) sama dengan...",
+    "options": ["2sinAcosA", "cos²A - sin²A", "1 - 2sin²A", "2cos²A - 1"],
+    "answer": "2sinAcosA"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Nilai dari ∫(3x² - 4x) dx dari 0 sampai 2 adalah...",
+    "options": ["0", "2", "4", "8"],
+    "answer": "0"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Jarak titik (4, 2, 5) ke bidang XY adalah...",
+    "options": ["2", "4", "5", "√20"],
+    "answer": "5"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Peluang dalam sebuah keluarga dengan 3 anak, memiliki 2 anak laki-laki adalah...",
+    "options": ["1/8", "2/8", "3/8", "4/8"],
+    "answer": "3/8"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Luas daerah yang dibatasi oleh kurva y=x² dan garis y=x adalah...",
+    "options": ["1/6", "1/3", "1/2", "1"],
+    "answer": "1/6"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Modus dari data dalam tabel frekuensi adalah nilai dengan...",
+    "options": ["Frekuensi terendah", "Frekuensi tertinggi", "Nilai tengah", "Nilai rata-rata"],
+    "answer": "Frekuensi tertinggi"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Jika vektor u=(1,2) dan v=(3,1), maka u . v adalah...",
+    "options": ["4", "5", "6", "7"],
+    "answer": "5"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Volume benda putar yang terjadi jika daerah yang dibatasi y=x, x=0, x=2, dan sumbu x diputar mengelilingi sumbu x adalah...",
+    "options": ["4π/3", "8π/3", "4π", "8π"],
+    "answer": "8π/3"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Simpangan baku dari data 2, 3, 4, 5, 6 adalah...",
+    "options": ["√2", "√3", "2", "3"],
+    "answer": "√2"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Turunan dari f(x) = sin(2x) adalah...",
+    "options": ["cos(2x)", "-cos(2x)", "2cos(2x)", "-2cos(2x)"],
+    "answer": "2cos(2x)"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Proyeksi vektor a=(2,1) pada b=(3,4) adalah...",
+    "options": ["(3,4)", "(6,8)/5", "(6,4)/5", "(3,1)"],
+    "answer": "(6,8)/5"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Nilai dari 5! adalah...",
+    "options": ["25", "60", "120", "720"],
+    "answer": "120"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Sudut antara vektor a=(1,0) dan b=(1,1) adalah...",
+    "options": ["30°", "45°", "60°", "90°"],
+    "answer": "45°"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Distribusi probabilitas yang digunakan untuk data diskrit adalah...",
+    "options": ["Normal", "Binomial", "Eksponensial", "Chi-Kuadrat"],
+    "answer": "Binomial"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Hasil dari ∫(1/x) dx adalah...",
+    "options": ["ln|x| + C", "-1/x² + C", "x⁻² + C", "1 + C"],
+    "answer": "ln|x| + C"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Bayangan garis y=2x+1 oleh dilatasi [O, 2] adalah...",
+    "options": ["y=2x+2", "y=4x+1", "y=4x+2", "2y=2x+1"],
+    "answer": "y=2x+2"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Jangkauan antarkuartil dari data 1,2,3,4,5,6,7,8 adalah...",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Nilai maksimum dari f(x) = sin(x) + cos(x) adalah...",
+    "options": ["1", "√2", "2", "2√2"],
+    "answer": "√2"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Titik stasioner dari kurva y = x³ - 3x adalah...",
+    "options": ["x=1 dan x=-1", "x=0 dan x=1", "x=0 dan x=-1", "x=3 dan x=-3"],
+    "answer": "x=1 dan x=-1"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Integral dari f(x) = e^x adalah...",
+    "options": ["e^x + C", "xe^x + C", "ln(x) + C", "1/x + C"],
+    "answer": "e^x + C"
+  },
+  {
+    "level": "SMA",
+    "grade": 12,
+    "question": "Persamaan matriks untuk transformasi rotasi sebesar 90° berlawanan arah jarum jam adalah...",
+    "options": ["[[0, -1], [1, 0]]", "[[0, 1], [-1, 0]]", "[[1, 0], [0, -1]]", "[[-1, 0], [0, 1]]"],
+    "answer": "[[0, -1], [1, 0]]"
+  }
+]

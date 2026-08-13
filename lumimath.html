@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumiMath - Math Challenge For You</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #5468FF;
+            --primary-light: #8A98FF;
+            --secondary-color: #303972;
+            --background-light: #F7F8FC;
+            --white-color: #FFFFFF;
+            --text-dark: #2C3E50;
+            --text-light: #7E84A3;
+            --success-color: #28a745;
+            --danger-color: #dc3545;
+            
+            --border-radius-md: 16px;
+            --border-radius-lg: 24px;
+            --shadow-soft: 0 10px 40px rgba(0, 0, 0, 0.08);
+            --shadow-medium: 0 15px 45px rgba(84, 104, 255, 0.2);
+            --transition-speed: 0.4s;
+        }
+
+        body.dark-mode {
+            --secondary-color: #FFFFFF;
+            --background-light: #1a1a2e;
+            --white-color: #16213e;
+            --text-dark: #e0e0e0;
+            --text-light: #a0a0c0;
+        }
+
+        html { scroll-behavior: smooth; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--white-color);
+            color: var(--text-dark);
+            font-size: 16px;
+            overflow-x: hidden;
+            transition: background-color var(--transition-speed), color var(--transition-speed);
+        }
+        .container {
+            width: 100%; max-width: 1200px;
+            margin: 0 auto; padding: 0 20px;
+        }
+        section { padding: 100px 0; }
+        h1, h2, h3 { font-weight: 700; color: var(--secondary-color); }
+        h1 { font-size: 3.8rem; line-height: 1.2; }
+        h2 { font-size: 2.8rem; text-align: center; margin-bottom: 20px;}
+        h3 { font-size: 1.5rem; }
+        p { color: var(--text-light); line-height: 1.8; font-size: 1.1rem;}
+        .section-subtitle {
+            text-align: center; max-width: 600px;
+            margin: 0 auto 60px auto; font-size: 1.1rem;
+        }
+        .btn-primary {
+            cursor: pointer; border: none;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+            color: #FFFFFF;
+            padding: 16px 35px;
+            font-size: 1.1rem; font-weight: 600;
+            border-radius: 50px; text-decoration: none;
+            display: inline-block;
+            box-shadow: var(--shadow-medium);
+            transition: all var(--transition-speed) ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(84, 104, 255, 0.3);
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        header {
+            position: fixed; width: 100%;
+            top: 0; left: 0;
+            z-index: 1000;
+            padding: 20px 0;
+            transition: all var(--transition-speed) ease;
+        }
+        header.scrolled {
+            background-color: rgba(255, 255, 255, 0.85);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 15px 0;
+        }
+        body.dark-mode header.scrolled {
+            background-color: rgba(22, 33, 62, 0.85);
+        }
+        header .container {
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .logo {
+            font-size: 2rem; font-weight: 800;
+            color: var(--secondary-color); text-decoration: none;
+        }
+        
+        .nav-links { 
+            list-style: none; 
+            display: flex; 
+            align-items: center; 
+            gap: 35px; 
+            margin: 0;
+            padding: 0;
+        }
+        .nav-menu a {
+            color: var(--secondary-color); text-decoration: none;
+            font-weight: 600; font-size: 1rem;
+            transition: color var(--transition-speed) ease;
+        }
+        .nav-menu a:hover { color: var(--primary-color); }
+        .header-btn {
+            background-color: transparent; border: 2px solid var(--primary-color);
+            color: var(--primary-color); padding: 10px 25px;
+            border-radius: 50px; font-weight: 600;
+            transition: all var(--transition-speed) ease;
+            text-decoration: none;
+        }
+        .header-btn:hover { background-color: var(--primary-color); color: var(--white-color); }
+        
+        #theme-toggle {
+            cursor: pointer; font-size: 1.5rem;
+            color: var(--secondary-color); background: none; border: none;
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            z-index: 1001;
+            background: none;
+            border: none;
+            padding: 5px;
+            height: 24px;
+            width: 28px;
+            position: relative;
+        }
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            margin: 5px auto;
+            background-color: var(--secondary-color);
+            border-radius: 3px;
+            transition: all var(--transition-speed) ease-in-out;
+            position: absolute;
+            left: 0;
+        }
+        .hamburger span:nth-child(1) { top: 0; }
+        .hamburger span:nth-child(2) { top: 8px; }
+        .hamburger span:nth-child(3) { top: 16px; }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg);
+            top: 8px;
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg);
+            top: 8px;
+        }
+
+        .hero-section {
+            background-color: var(--background-light);
+            padding-top: 180px; padding-bottom: 120px;
+            text-align: center; position: relative;
+            overflow: hidden;
+        }
+        .hero-content { position: relative; z-index: 2; }
+        .hero-content p {
+            max-width: 650px; margin: 25px auto 40px auto;
+            font-size: 1.2rem;
+        }
+        .hero-bg-shape {
+            position: absolute; border-radius: 50%;
+            filter: blur(100px);
+            transition: background var(--transition-speed);
+        }
+        .shape1 { width: 400px; height: 400px; background: rgba(84, 104, 255, 0.15); top: -100px; left: -100px; }
+        .shape2 { width: 300px; height: 300px; background: rgba(138, 152, 255, 0.2); bottom: -50px; right: -50px; }
+        
+        .advantages-section { background-color: var(--white-color); }
+        .advantage-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .advantage-item {
+            background-color: var(--background-light);
+            border-radius: var(--border-radius-lg);
+            padding: 40px; text-align: center;
+            border: 1px solid #EFF0F5;
+            transition: all var(--transition-speed) ease;
+        }
+        body.dark-mode .advantage-item {
+            border-color: #303972;
+        }
+        .advantage-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-soft);
+            border-color: transparent;
+            background-color: var(--white-color);
+        }
+        .advantage-item .icon-wrapper {
+            width: 80px; height: 80px;
+            margin: 0 auto 25px auto;
+            border-radius: var(--border-radius-md);
+            background-image: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+            display: flex; justify-content: center; align-items: center;
+            font-size: 2.5rem; color: #FFFFFF;
+            box-shadow: 0 10px 20px rgba(84, 104, 255, 0.2);
+        }
+        .advantage-item h3 { margin-bottom: 15px; }
+
+        .value-prop-section { background-color: var(--background-light); }
+        .value-prop-content { display: flex; align-items: center; gap: 60px; }
+        .value-prop-text { flex: 1; }
+        .value-prop-text h2 { text-align: left; margin-bottom: 25px; }
+        .value-prop-list { list-style: none; margin-top: 30px; }
+        .value-prop-list li { color: var(--text-dark); font-weight: 500; margin-bottom: 15px; font-size: 1.1rem; display: flex; align-items: center; }
+        .value-prop-list li i { color: var(--primary-color); margin-right: 15px; font-size: 1.3rem; }
+        .value-prop-image { flex: 1; }
+        .value-prop-image img { width: 100%; height: auto; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-soft); }
+
+        .features-section { background-color: var(--background-light); }
+        .level-group-grid { display: grid; grid-template-columns: 1fr; gap: 40px; }
+        .level-group-item {
+            background-color: var(--white-color);
+            border-radius: var(--border-radius-lg); padding: 40px;
+            text-align: center; border: 1px solid #EFF0F5;
+            transition: all var(--transition-speed) ease;
+        }
+        body.dark-mode .level-group-item { border-color: #303972; background-color: #1a1a2e; }
+        .level-group-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-soft);
+        }
+        .level-group-item h3 { margin-bottom: 25px; }
+        .grade-buttons-features {
+            display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;
+        }
+        .grade-btn {
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            padding: 12px 25px; font-size: 1rem;
+            border-radius: 50px; font-weight: 500;
+            border: 1px solid #E0E4F6;
+            transition: all var(--transition-speed) ease;
+            cursor: pointer;
+        }
+        body.dark-mode .grade-btn { background-color: #16213e; border-color: #303972; }
+        .grade-btn:hover {
+            background-color: var(--primary-color);
+            color: #FFFFFF; border-color: var(--primary-color);
+            transform: scale(1.05);
+        }
+
+        .leaderboard-section { background-color: var(--white-color); }
+        body.dark-mode .leaderboard-section { background-color: #1a1a2e; }
+        #leaderboard-container {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .leaderboard-card {
+            background: var(--background-light);
+            border-radius: var(--border-radius-lg);
+            padding: 30px;
+            border: 1px solid #EFF0F5;
+        }
+        body.dark-mode .leaderboard-card { border-color: #303972; background-color: var(--white-color)}
+        .leaderboard-card h3 {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px; margin-bottom: 20px;
+        }
+        .leaderboard-card ol { list-style: none; padding-left: 0; }
+        .leaderboard-card li {
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .leaderboard-card li .score { font-weight: 700; color: var(--primary-color); }
+        .leaderboard-card li:not(:last-child) { border-bottom: 1px solid #f0f0f0; }
+        body.dark-mode .leaderboard-card li:not(:last-child) { border-color: #303972; }
+        footer {
+            background-color: #1e2757; color: rgba(255, 255, 255, 0.7);
+            padding: 60px 0;
+        }
+        body.dark-mode footer { background-color: #0c122a; }
+        .footer-logo { font-size: 2.5rem; color: #FFFFFF; text-decoration: none;}
+        .social-icons a { color: #FFFFFF; font-size: 1.5rem; margin: 0 15px; text-decoration: none;}
+        .footer-nav a { color: rgba(255, 255, 255, 0.7); text-decoration: none; }
+        .footer-nav a:hover { color: #FFFFFF; }
+        #backToTopBtn {
+            display: none; position: fixed;
+            bottom: 30px; right: 30px;
+            z-index: 999;
+            width: 50px; height: 50px;
+            border-radius: 50%; background-color: var(--primary-color);
+            color: #FFFFFF; font-size: 1.5rem;
+            border: none; cursor: pointer;
+            box-shadow: var(--shadow-medium);
+            transition: all var(--transition-speed) ease;
+            opacity: 0; transform: translateY(20px);
+        }
+        #backToTopBtn.show { opacity: 1; transform: translateY(0); display: flex; align-items: center; justify-content: center; }
+        .modal-overlay {
+            position: fixed; top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex; justify-content: center; align-items: center;
+            z-index: 2000;
+            backdrop-filter: blur(8px);
+            opacity: 0; visibility: hidden;
+            transition: all var(--transition-speed) ease;
+        }
+        .modal-overlay.active { opacity: 1; visibility: visible; }
+        .modal-content {
+            background: var(--white-color);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-soft);
+            padding: 40px; max-width: 700px; width: 90%;
+            text-align: center; position: relative;
+            transform: scale(0.9);
+            transition: transform var(--transition-speed) ease;
+            max-height: 90vh; overflow-y: auto;
+        }
+        .modal-overlay.active .modal-content { transform: scale(1); }
+        .close-modal {
+            position: absolute; top: 15px; right: 20px;
+            font-size: 2.2rem; color: #ccc;
+            cursor: pointer; transition: color var(--transition-speed) ease;
+        }
+        .close-modal:hover { color: var(--primary-color); }
+        #quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 1rem; font-weight: 600; }
+        #level-modal-title { color: var(--primary-color); }
+        #progress-bar-container { width: 100%; height: 10px; background-color: #e0e0e0; border-radius: 5px; margin: 15px 0 25px 0; overflow: hidden; }
+        #progress-bar { height: 100%; width: 0%; border-radius: 5px; transition: width 0.4s ease-out; background: linear-gradient(90deg, var(--primary-color), var(--primary-light)); }
+        #question-modal-text { font-weight: 600; min-height: 70px; margin-bottom: 30px; font-size: 1.8rem; }
+        #options-modal-container { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; width: 100%; }
+        .option-modal-btn { 
+            color: var(--text-dark); border: 2px solid #ddd; padding: 15px; font-size: 1.1rem; border-radius: 10px; transition: all 0.2s ease; cursor: pointer;
+            background-color: var(--background-light);
+        }
+        body.dark-mode .option-modal-btn { border-color: var(--secondary-color); }
+        .option-modal-btn:disabled { cursor: not-allowed; }
+        .option-modal-btn.correct { background-color: var(--success-color); color: white; border-color: var(--success-color); }
+        .option-modal-btn.incorrect { background-color: var(--danger-color); color: white; border-color: var(--danger-color); }
+        .option-modal-btn:hover:not(:disabled) { border-color: var(--primary-color); background-color: #eef1f8; }
+        body.dark-mode .option-modal-btn:hover:not(:disabled) { background-color: #303972; }
+        #next-modal-btn { margin-top: 25px; visibility: hidden; opacity: 0; transition: all 0.3s; background-color: var(--primary-color); color:white; padding: 12px 30px; border-radius: 50px; border:none; cursor: pointer; font-size: 1rem; font-weight: 600; }
+        #next-modal-btn:hover { background: var(--secondary-color); }
+        #next-modal-btn.visible { visibility: visible; opacity: 1; }
+        #start-modal-container h2 { font-size: 2.5rem; margin-bottom: 10px; }
+        #start-modal-btn { margin-top: 30px; padding: 18px 50px; font-size: 1.3rem; }
+        #result-modal-container h2 { font-size: 2.5rem; }
+        #final-modal-score { font-size: 4rem; font-weight: 700; margin: 15px 0; color: var(--primary-color); }
+        #motivation-text { font-size: 1.2rem; font-weight: 500; color: var(--text-light); min-height: 30px; }
+        .result-buttons { display: flex; gap: 15px; justify-content: center; margin-top: 25px; }
+        #restart-modal-btn, #review-modal-btn { padding: 12px 30px; font-size: 1rem; cursor: pointer; border:none; border-radius: 50px; font-weight: 600;}
+        #restart-modal-btn { background-color: var(--primary-color); color: white; }
+        #review-modal-btn { background-color: var(--background-light); color: var(--secondary-color); border: 2px solid var(--primary-color); }
+        #review-container { text-align: left; }
+        .review-item { margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid #eee; }
+        body.dark-mode .review-item { border-color: #303972; }
+        .review-item:last-child { border-bottom: none; }
+        .review-question { font-weight: 600; margin-bottom: 15px; font-size: 1.1rem; }
+        .review-options div { margin: 5px 0; padding: 8px; border-radius: 8px; }
+        .review-options .user-answer.incorrect { background-color: rgba(220, 53, 69, 0.2); }
+        .review-options .correct-answer { background-color: rgba(40, 167, 69, 0.2); }
+        #timer-modal-container {
+            position: relative; width: 60px; height: 60px; margin: 0 auto 25px auto;
+        }
+        #timer-modal-svg { transform: rotate(-90deg); }
+        #timer-modal-circle { stroke-dasharray: 157; stroke-dashoffset: 0; stroke-linecap: round; transition: stroke-dashoffset 1s linear; }
+        #timer-modal-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            z-index: 10;
+        }
+        
+        .formulas-section { 
+            background-color: var(--background-light);
+            text-align: left;
+        }
+        
+        .formulas-content-new {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background-color: var(--white-color);
+            border-radius: var(--border-radius-lg);
+            padding: 60px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid #EFF0F5;
+            transition: all var(--transition-speed) ease;
+            overflow: hidden;
+        }
+        
+        body.dark-mode .formulas-content-new {
+            background-color: #16213e;
+            border-color: #303972;
+        }
+        
+        .formulas-content-new:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .formulas-text {
+            flex: 1.2;
+            z-index: 2;
+        }
+        
+        .icon-formulas {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 20px rgba(84, 104, 255, 0.2);
+        }
+        
+        .formulas-text h2 {
+            text-align: left;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+        
+        .formulas-text p {
+            color: var(--text-light);
+            margin-bottom: 30px;
+            max-width: 500px;
+        }
+        
+        .formulas-image {
+            flex: 0.8;
+            align-self: flex-end;
+            text-align: center;
+        }
+        
+        .formulas-image img {
+            max-width: 100%;
+            width: 300px;
+            height: auto;
+            display: block;
+            margin-bottom: -60px;
+        }
+
+        @media (max-width: 992px) {
+            h1 { font-size: 3rem; }
+            h2 { font-size: 2.2rem; }
+            .nav-links {
+                position: absolute;
+                top: 80px; 
+                right: 20px;
+                background-color: var(--white-color);
+                border-radius: var(--border-radius-md);
+                box-shadow: var(--shadow-soft);
+                flex-direction: column;
+                width: 250px;
+                padding: 20px;
+                gap: 0;
+                align-items: flex-start;
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(-10px);
+                transition: opacity var(--transition-speed) ease, transform var(--transition-speed) ease, visibility var(--transition-speed) ease;
+            }
+            .nav-links.active {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+            }
+            .nav-links li { width: 100%; margin-bottom: 10px; }
+            .nav-links a { padding: 10px; display: block; text-align: left; }
+            .hamburger { display: block; }
+            .header-btn { display: none; }
+            .value-prop-content { flex-direction: column; text-align: center; }
+            .value-prop-text h2 { text-align: center; }
+            .value-prop-list li { justify-content: center; }
+
+            .formulas-content-new {
+                flex-direction: column-reverse;
+                padding: 40px;
+                text-align: center;
+            }
+            .formulas-text h2 {
+                text-align: center;
+            }
+            .icon-formulas {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .formulas-image img {
+                margin-bottom: 20px;
+                width: 250px;
+            }
+        }
+        @media (max-width: 768px) {
+            section { padding: 80px 0; }
+            h1 { font-size: 2.5rem; }
+            #options-modal-container { grid-template-columns: 1fr; }
+            .formulas-image img {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="lumimath.html" class="logo">LumiMath</a> 
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="lumimath.html#hero">Beranda</a></li>
+                    <li><a href="lumimath.html#advantages">Fitur</a></li>
+                    <li><a href="rumus.html">Rumus</a></li> 
+                    <li><a href="lumimath.html#levels">Mulai Ujian</a></li>
+                    <li><a href="lumimath.html#leaderboard">Papan Skor</a></li>
+                    <li><a href="#levels" class="header-btn" style="display: block; text-align:center;">Pilih Level</a></li>
+                    <li>
+                        <button id="theme-toggle" title="Toggle dark mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-shape shape1"></div>
+            <div class="hero-bg-shape shape2"></div>
+            <div class="container hero-content">
+                <h1>Tantangan Matematika Terbaik Dimulai di Sini</h1>
+                <p>Asah otakmu dengan ribuan soal matematika interaktif yang dirancang untuk setiap jenjang pendidikan, dari SD hingga SMA.</p>
+                <a href="#levels" class="btn-primary">Mulai Tantangan Sekarang!</a>
+            </div>
+        </section>
+
+        <section id="advantages" class="advantages-section">
+            <div class="container">
+                <h2 class="animate-on-scroll">Mengapa Belajar di LumiMath?</h2>
+                <p class="section-subtitle animate-on-scroll">Kami percaya belajar harus seru dan efektif. Inilah yang membuat kami berbeda.</p>
+                <div class="advantage-grid">
+                    <div class="advantage-item animate-on-scroll">
+                        <div class="icon-wrapper"><i class="fas fa-award"></i></div>
+                        <h3>Kurikulum Lengkap</h3>
+                        <p>Materi dari kelas 1 SD hingga 12 SMA/SMK disajikan secara komprehensif.</p>
+                    </div>
+                    <div class="advantage-item animate-on-scroll">
+                        <div class="icon-wrapper"><i class="fas fa-mobile-alt"></i></div>
+                        <h3>Akses Fleksibel</h3>
+                        <p>Belajar kapan pun dan di mana pun melalui desktop, tablet, atau smartphone Anda.</p>
+                    </div>
+                    <div class="advantage-item animate-on-scroll">
+                        <div class="icon-wrapper"><i class="fas fa-chart-line"></i></div>
+                        <h3>Lacak Kemajuan</h3>
+                        <p>Lihat skor dan analisis performa untuk mengetahui sejauh mana perkembanganmu.</p>
+                    </div>
+                     <div class="advantage-item animate-on-scroll">
+                        <div class="icon-wrapper"><i class="fas fa-infinity"></i></div>
+                        <h3>Gratis Selamanya</h3>
+                        <p>Nikmati semua fitur dan soal tanpa biaya apa pun, selamanya.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formulas" class="formulas-section">
+            <div class="container">
+                <div class="formulas-content-new animate-on-scroll">
+                    <div class="formulas-text">
+                        <div class="icon-formulas">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h2>Pustaka Rumus Lengkap</h2>
+                        <p>Butuh bantuan mengingat rumus? Kunjungi pustaka kami yang berisi rangkuman materi, rumus penting, dan contoh penyelesaian soal yang mudah dipahami.</p>
+                        <a href="rumus.html" class="btn-primary">Lihat Kumpulan Rumus</a>
+                    </div>
+                    <div class="formulas-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="value-proposition" class="value-prop-section">
+           <div class="container">
+                <div class="value-prop-content">
+                    <div class="value-prop-text animate-on-scroll">
+                        <h2>Belajar Lebih Cerdas, Bukan Lebih Keras</h2>
+                        <p>
+                            LumiMath bukan hanya tentang menjawab soal. Kami membantu Anda memahami konsep di baliknya
+                            dengan soal-soal yang dirancang untuk membangun pemahaman fundamental secara bertahap.
+                        </p>
+                        <ul class="value-prop-list">
+                            <li><i class="fas fa-check-circle"></i> Soal berbasis kurikulum terbaru.</li>
+                            <li><i class="fas fa-check-circle"></i> Penjelasan untuk setiap tingkatan.</li>
+                            <li><i class="fas fa-check-circle"></i> Tingkatkan kepercayaan diri Anda.</li>
+                        </ul>
+                    </div>
+                    <div class="value-prop-image animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2070&auto=format&fit=crop" alt="Suasana Belajar Kelompok">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="levels" class="features-section">
+            <div class="container">
+                <h2 class="animate-on-scroll">Pilih Arena Tantanganmu</h2>
+                <p class="section-subtitle animate-on-scroll">Siap untuk memulai? Pilih jenjang pendidikan dan kelasmu untuk langsung masuk ke dalam ujian!</p>
+                <div class="level-group-grid">
+                    <div class="level-group-item animate-on-scroll">
+                        <h3><i class="fas fa-child" style="color:#FFB154;"></i> Sekolah Dasar (SD)</h3>
+                        <div class="grade-buttons-features">
+                            <button class="grade-btn" onclick="prepareGame('SD', 1)">Kelas 1</button>
+                            <button class="grade-btn" onclick="prepareGame('SD', 2)">Kelas 2</button>
+                            <button class="grade-btn" onclick="prepareGame('SD', 3)">Kelas 3</button>
+                            <button class="grade-btn" onclick="prepareGame('SD', 4)">Kelas 4</button>
+                            <button class="grade-btn" onclick="prepareGame('SD', 5)">Kelas 5</button>
+                            <button class="grade-btn" onclick="prepareGame('SD', 6)">Kelas 6</button>
+                        </div>
+                    </div>
+                    <div class="level-group-item animate-on-scroll">
+                        <h3><i class="fas fa-book-open" style="color:#54A2FF;"></i> Sekolah Menengah Pertama (SMP)</h3>
+                        <div class="grade-buttons-features">
+                            <button class="grade-btn" onclick="prepareGame('SMP', 7)">Kelas 7</button>
+                            <button class="grade-btn" onclick="prepareGame('SMP', 8)">Kelas 8</button>
+                            <button class="grade-btn" onclick="prepareGame('SMP', 9)">Kelas 9</button>
+                        </div>
+                    </div>
+                    <div class="level-group-item animate-on-scroll">
+                        <h3><i class="fas fa-graduation-cap" style="color:#FF548A;"></i> Sekolah Menengah Atas (SMA/SMK)</h3>
+                        <div class="grade-buttons-features">
+                            <button class="grade-btn" onclick="prepareGame('SMA', 10)">Kelas 10</button>
+                            <button class="grade-btn" onclick="prepareGame('SMA', 11)">Kelas 11</button>
+                            <button class="grade-btn" onclick="prepareGame('SMA', 12)">Kelas 12</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="leaderboard" class="leaderboard-section">
+            <div class="container">
+                <h2 class="animate-on-scroll">Papan Skor Tertinggi</h2>
+                <p class="section-subtitle animate-on-scroll">Lihat skor tertinggi yang pernah diraih di setiap jenjang. Bisakah kamu mengalahkan mereka?</p>
+                <div id="leaderboard-container" class="animate-on-scroll"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="lumimath.html" class="footer-logo">LumiMath</a>
+            <p>Platform interaktif untuk mengasah skill matematika dari SD hingga SMA.</p>
+            <div class="social-icons">
+                <a href="https://whatsapp.com/channel/0029VavoGlmFsn0nt7DoqX1E"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <nav class="footer-nav">
+                <a href="#">Kebijakan Privasi</a> |
+                <a href="#">Syarat & Ketentuan</a>
+            </nav>
+            <p class="copyright">&copy; 2025 LumiMath. Dibuat dengan semangat belajar.</p>
+        </div>
+    </footer>
+
+    <button id="backToTopBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <div id="quiz-modal-overlay" class="modal-overlay">
+       <div class="modal-content">
+            <span class="close-modal" onclick="closeQuizModal()">&times;</span>
+            
+            <div id="start-modal-container">
+                <h2 id="start-level-title"></h2>
+                <p id="start-question-count"></p>
+                <button id="start-modal-btn" class="btn-primary">Mulai!</button>
+            </div>
+
+            <div id="quiz-modal-container" style="display: none;">
+                <div id="quiz-header">
+                    <span id="level-modal-title"></span>
+                    <span id="question-modal-counter"></span>
+                </div>
+                <div id="timer-modal-container">
+                    <span id="timer-modal-text"></span>
+                    <svg id="timer-modal-svg" width="60" height="60">
+                        <circle cx="30" cy="30" r="25" fill="none" stroke="#e0e0e0" stroke-width="5"></circle>
+                        <circle id="timer-modal-circle" cx="30" cy="30" r="25" fill="none" stroke="var(--primary-color)" stroke-width="5"></circle>
+                    </svg>
+                </div>
+                <div id="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <h2 id="question-modal-text"></h2>
+                <div id="options-modal-container"></div>
+                <button id="next-modal-btn">Soal Berikutnya</button>
+            </div>
+
+            <div id="result-modal-container" style="display: none;">
+                <h2>Kuis Selesai!</h2>
+                <p id="score-modal-text"></p>
+                <p id="final-modal-score"></p>
+                <p id="motivation-text"></p>
+                <div class="result-buttons">
+                    <button id="restart-modal-btn">Tutup</button>
+                    <button id="review-modal-btn">Lihat Review</button>
+                </div>
+            </div>
+
+            <div id="review-modal-container" style="display: none;">
+                 <h2>Review Jawaban</h2>
+                 <div id="review-container"></div>
+                 <button id="restart-modal-btn-from-review" class="btn-primary" style="margin-top: 30px;">Tutup</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.querySelector('header');
+            const backToTopBtn = document.getElementById('backToTopBtn');
+            const themeToggle = document.getElementById('theme-toggle');
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            const navMenuLinks = document.querySelectorAll('.nav-links a');
+
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+
+            navMenuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        hamburger.classList.remove('active');
+                    }
+                });
+            });
+
+            const currentTheme = localStorage.getItem('theme');
+            if (currentTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            }
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+                let theme = 'light';
+                if (document.body.classList.contains('dark-mode')) {
+                    theme = 'dark';
+                    themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+                } else {
+                    themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+                }
+                localStorage.setItem('theme', theme);
+            });
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) header.classList.add('scrolled');
+                else header.classList.remove('scrolled');
+
+                if (window.scrollY > 300) backToTopBtn.classList.add('show');
+                else backToTopBtn.classList.remove('show');
+            });
+
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.animate-on-scroll').forEach(el => {
+                observer.observe(el);
+            });
+
+            const quizModalOverlay = document.getElementById('quiz-modal-overlay');
+            const startModal = document.getElementById('start-modal-container');
+            const quizModal = document.getElementById('quiz-modal-container');
+            const resultModal = document.getElementById('result-modal-container');
+            const reviewModal = document.getElementById('review-modal-container');
+            const levelModalTitle = document.getElementById('level-modal-title');
+            const questionModalCounter = document.getElementById('question-modal-counter');
+            const progressBar = document.getElementById('progress-bar');
+            const questionModalText = document.getElementById('question-modal-text');
+            const optionsModalContainer = document.getElementById('options-modal-container');
+            const nextModalBtn = document.getElementById('next-modal-btn');
+            const scoreModalText = document.getElementById('score-modal-text');
+            const finalModalScore = document.getElementById('final-modal-score');
+            const motivationText = document.getElementById('motivation-text');
+            const restartBtn = document.getElementById('restart-modal-btn');
+            const reviewBtn = document.getElementById('review-modal-btn');
+            const restartBtnFromReview = document.getElementById('restart-modal-btn-from-review');
+            const timerText = document.getElementById('timer-modal-text');
+            const timerCircle = document.getElementById('timer-modal-circle');
+            
+            let timerInterval;
+            let allQuestions = [];
+            let currentLevelQuestions = [];
+            let currentQuestionIndex = 0;
+            let score = 0;
+            let userAnswers = [];
+            let currentLevel, currentGrade;
+            const QUESTIONS_PER_GAME = 10; // <<-- JUMLAH SOAL DITENTUKAN DI SINI
+
+            const getTimeLimitByLevel = (level) => {
+                switch(level) {
+                    case 'SD': return 30;
+                    case 'SMP': return 60;
+                    case 'SMA': return 90;
+                    default: return 20;
+                }
+            };
+
+            const loadQuestions = async () => {
+                if (allQuestions.length > 0) return; 
+                try {
+                    const response = await fetch('questions.json');
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    allQuestions = await response.json();
+                } catch (error) {
+                    console.error("Gagal memuat soal:", error);
+                    alert("Maaf, terjadi kesalahan saat memuat soal. Silakan coba lagi nanti.");
+                }
+            };
+            
+            window.prepareGame = async (level, grade) => {
+                await loadQuestions(); 
+
+                let availableQuestions = allQuestions.filter(q => q.level === level && q.grade === grade);
+                
+                if (availableQuestions.length === 0) {
+                    alert(`Maaf, soal untuk ${level} kelas ${grade} belum tersedia.`);
+                    return;
+                }
+                
+                availableQuestions.sort(() => Math.random() - 0.5);
+                
+                currentLevelQuestions = availableQuestions.slice(0, QUESTIONS_PER_GAME);
+
+                currentLevel = level;
+                currentGrade = grade;
+
+                document.getElementById('start-level-title').textContent = `${level} - Kelas ${grade}`;
+                document.getElementById('start-question-count').textContent = `Kamu akan menghadapi ${currentLevelQuestions.length} soal.`;
+                startModal.style.display = 'block';
+                quizModal.style.display = 'none';
+                resultModal.style.display = 'none';
+                reviewModal.style.display = 'none';
+                quizModalOverlay.classList.add('active');
+            };
+            
+            document.getElementById('start-modal-btn').addEventListener('click', () => {
+                startModal.style.display = 'none';
+                quizModal.style.display = 'block';
+                startGame();
+            });
+
+            const startGame = () => {
+                currentQuestionIndex = 0;
+                score = 0;
+                userAnswers = [];
+                levelModalTitle.textContent = `${currentLevel} - Kelas ${currentGrade}`;
+                showQuestion();
+            };
+
+            const showQuestion = () => {
+                resetModalState();
+                startTimer();
+                const currentQuestion = currentLevelQuestions[currentQuestionIndex];
+                progressBar.style.width = `${((currentQuestionIndex) / currentLevelQuestions.length) * 100}%`;
+                questionModalCounter.textContent = `Soal ${currentQuestionIndex + 1} / ${currentLevelQuestions.length}`;
+                questionModalText.innerHTML = currentQuestion.question;
+                
+                const shuffledOptions = [...currentQuestion.options].sort(() => Math.random() - 0.5);
+
+                shuffledOptions.forEach(option => {
+                    const button = document.createElement('button');
+                    button.innerHTML = option;
+                    button.classList.add('option-modal-btn');
+                    button.addEventListener('click', () => selectAnswer(button, option, currentQuestion));
+                    optionsModalContainer.appendChild(button);
+                });
+            };
+
+            const selectAnswer = (selectedButton, selectedOption, currentQuestion) => {
+                clearInterval(timerInterval);
+                const isCorrect = selectedOption === currentQuestion.answer;
+                if (isCorrect) score++;
+
+                userAnswers.push({
+                    question: currentQuestion.question,
+                    options: currentQuestion.options,
+                    selected: selectedOption,
+                    correct: currentQuestion.answer,
+                    isCorrect: isCorrect
+                });
+                
+                Array.from(optionsModalContainer.children).forEach(button => {
+                    if (String(button.innerHTML) === String(currentQuestion.answer)) button.classList.add('correct');
+                    else if (button === selectedButton) button.classList.add('incorrect');
+                    button.disabled = true;
+                });
+                progressBar.style.width = `${((currentQuestionIndex + 1) / currentLevelQuestions.length) * 100}%`;
+                setTimeout(() => nextModalBtn.classList.add('visible'), 500);
+            };
+            
+            const showResult = () => {
+                const totalQuestions = currentLevelQuestions.length;
+                const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
+                
+                saveScoreToLeaderboard(currentLevel, percentage);
+
+                scoreModalText.textContent = `Anda benar ${score} dari ${totalQuestions} soal.`;
+                finalModalScore.textContent = `${percentage}%`;
+                
+                if (percentage === 100) motivationText.textContent = "Luar Biasa! Semua jawaban benar!";
+                else if (percentage >= 75) motivationText.textContent = "Kerja Bagus! Terus tingkatkan!";
+                else if (percentage >= 50) motivationText.textContent = "Bagus! Sedikit lagi menuju mahir.";
+                else motivationText.textContent = "Jangan Menyerah! Terus berlatih ya.";
+
+                quizModal.style.display = 'none';
+                resultModal.style.display = 'block';
+            };
+            
+            const showReview = () => {
+                resultModal.style.display = 'none';
+                reviewModal.style.display = 'block';
+                const reviewContainer = document.getElementById('review-container');
+                reviewContainer.innerHTML = '';
+
+                userAnswers.forEach((answer, index) => {
+                    const item = document.createElement('div');
+                    item.classList.add('review-item');
+                    let optionsHTML = '';
+                    answer.options.forEach(option => {
+                        let classNames = '';
+                        if (String(option) === String(answer.correct)) {
+                            classNames = 'correct-answer';
+                        }
+                        if (String(option) === String(answer.selected) && !answer.isCorrect) {
+                            classNames += ' user-answer incorrect';
+                        }
+                        optionsHTML += `<div class="${classNames}">- ${option}</div>`;
+                    });
+
+                    item.innerHTML = `
+                        <p class="review-question">${index + 1}. ${answer.question}</p>
+                        <div class="review-options">${optionsHTML}</div>
+                    `;
+                    reviewContainer.appendChild(item);
+                });
+            };
+
+            const resetModalState = () => {
+                nextModalBtn.classList.remove('visible');
+                while (optionsModalContainer.firstChild) {
+                    optionsModalContainer.removeChild(optionsModalContainer.firstChild);
+                }
+            };
+
+            const startTimer = () => {
+                const TIME_LIMIT = getTimeLimitByLevel(currentLevel);
+                let timeLeft = TIME_LIMIT;
+                timerText.textContent = timeLeft;
+                timerCircle.style.strokeDashoffset = 0;
+                timerCircle.style.transition = 'stroke-dashoffset 1s linear';
+                
+                timerInterval = setInterval(() => {
+                    timeLeft--;
+                    timerText.textContent = timeLeft;
+                    const offset = (TIME_LIMIT - timeLeft) / TIME_LIMIT * 157;
+                    timerCircle.style.strokeDashoffset = offset;
+
+                    if (timeLeft <= 5) {
+                        timerCircle.style.stroke = 'var(--danger-color)';
+                    } else {
+                        timerCircle.style.stroke = 'var(--primary-color)';
+                    }
+
+                    if (timeLeft <= 0) {
+                        clearInterval(timerInterval);
+                        selectAnswer(null, null, currentLevelQuestions[currentQuestionIndex]);
+                    }
+                }, 1000);
+            };
+            
+            const saveScoreToLeaderboard = (level, score) => {
+                const key = `leaderboard_${level}`;
+                let scores = JSON.parse(localStorage.getItem(key)) || [];
+                scores.push(score);
+                scores.sort((a, b) => b - a);
+                localStorage.setItem(key, JSON.stringify(scores.slice(0, 5)));
+                displayLeaderboard();
+            };
+
+            const displayLeaderboard = () => {
+                const container = document.getElementById('leaderboard-container');
+                container.innerHTML = '';
+                const levels = ['SD', 'SMP', 'SMA'];
+                levels.forEach(level => {
+                    const key = `leaderboard_${level}`;
+                    const scores = JSON.parse(localStorage.getItem(key)) || [];
+                    
+                    const card = document.createElement('div');
+                    card.classList.add('leaderboard-card');
+                    
+                    let scoresHTML = '<ol>';
+                    if (scores.length > 0) {
+                        scores.forEach((s, index) => {
+                            scoresHTML += `<li><span>#${index + 1}</span><span class="score">${s}%</span></li>`;
+                        });
+                    } else {
+                        scoresHTML += '<li>Belum ada skor.</li>';
+                    }
+                    scoresHTML += '</ol>';
+                    
+                    card.innerHTML = `<h3><i class="fas fa-trophy"></i> ${level}</h3>${scoresHTML}`;
+                    container.appendChild(card);
+                });
+            };
+
+            window.closeQuizModal = () => {
+                quizModalOverlay.classList.remove('active');
+                clearInterval(timerInterval); 
+            };
+
+            nextModalBtn.addEventListener('click', () => {
+                currentQuestionIndex++;
+                if (currentQuestionIndex < currentLevelQuestions.length) showQuestion();
+                else showResult();
+            });
+            restartBtn.addEventListener('click', closeQuizModal);
+            restartBtnFromReview.addEventListener('click', closeQuizModal);
+            reviewBtn.addEventListener('click', showReview);
+
+            loadQuestions();
+            displayLeaderboard();
+        });
+    </script>
+</body>
+</html>
