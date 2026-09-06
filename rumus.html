@@ -197,7 +197,7 @@
             <a href="lumimath.html" class="logo">LumiMath</a>
             <nav class="nav-menu">
                 <ul class="nav-links">
-                    <li><a href="lumimath.html#hero">Beranda</a></li>
+                    <li><a href="index.html#hero">Beranda</a></li>
                     <li><a href="lumimath.html#advantages">Fitur</a></li>
                     <li><a href="rumus.html">Rumus</a></li>
                     <li><a href="lumimath.html#levels">Mulai Ujian</a></li>
@@ -351,10 +351,9 @@
                 noResultsMessage.style.display = totalVisibleCards === 0 ? 'block' : 'none';
             }
 
-            // --- [DIUBAH] Memanggil loadFormulas dan menambahkan event listener untuk search ---
             async function initializePage() {
-                await loadFormulas(); // Tunggu hingga semua rumus dimuat
-                searchInput.addEventListener('input', handleSearch); // Baru tambahkan listener setelahnya
+                await loadFormulas(); 
+                searchInput.addEventListener('input', handleSearch); 
             }
 
             initializePage();
